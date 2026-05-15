@@ -31,21 +31,64 @@ Obsidian Vault/
 - entity 페이지는 고유명사 그대로: `Andrej Karpathy.md`, `Obsidian.md`.
 - 날짜성 노트는 `YYYY-MM-DD-{slug}.md`.
 
-### Frontmatter (선택)
-```yaml
----
-type: note | entity | source
-status: draft | active | archived
-tags: [tag1, tag2]
-created: YYYY-MM-DD
-updated: YYYY-MM-DD
----
-```
+### Frontmatter
+
+페이지 생성 시 해당 타입에 맞는 필드를 가능한 한 채운다.
+
+#### 공통
+
+| 필드 | 값 |
+|------|------|
+| `type` | `note` / `entity` / `source` |
+| `status` | `draft` / `active` / `archived` |
+| `tags` | `[t1, t2, ...]` |
+| `aliases` | `[다른 이름, alt name]` — 검색·링크 보조 |
+| `url` | 외부 참조 (선택) |
+| `created` | `YYYY-MM-DD` |
+| `updated` | `YYYY-MM-DD` |
+
+#### entity 전용
+
+| 필드 | 값 |
+|------|------|
+| `category` | `person` / `tool` / `concept` / `org` / `project` / `place` / `event` |
+
+카테고리별 선택 필드:
+- **person**: `roles` (현재/과거 역할 목록), `affiliation` (현재 소속)
+- **tool**: `vendor`, `license` (`open-source` / `commercial` / `freemium`), `platform`
+- **concept**: `proposed_by` (`[[Person]]`), `year_proposed`
+- **org**: `founded`, `industry`
+
+#### source 전용
+
+| 필드 | 값 |
+|------|------|
+| `author` | `[[Person]]` |
+| `format` | `article` / `video` / `podcast` / `book` / `paper` / `gist` / `thread` |
+| `published` | `YYYY-MM-DD` (선택) |
+| `language` | `ko` / `en` / ... |
 
 ### Wiki link
 - 다른 페이지 참조는 `[[페이지 이름]]` 형식.
 - 미존재 페이지로 링크해도 OK — 향후 채울 자리 표시로 둔다.
 - 핵심 명사가 본문에 등장하면 가능한 한 `[[...]]` 으로 감싼다.
+
+### Entity 페이지 표준 섹션
+
+모든 entity 페이지는 아래 표준 섹션을 따른다. 해당 정보가 없으면 섹션을 비우거나 생략한다.
+
+1. **한 줄 요약** — 제목 직후 1 문장
+2. `## 개요` — 2~3 문단, 정체성/활동/의미
+3. `## 본 vault 에서의 의미` — 이 vault 에서 왜 중요한가
+4. `## Key facts` — bullet, 핵심 사실
+5. `## 관련 sources`
+6. `## 관련 entities` — 인접/비교 대상
+
+#### 카테고리별 추가 섹션
+
+- **person**: `## 경력 / 활동`, `## 주요 작업`
+- **tool**: `## 핵심 기능`, `## 이 vault 에서의 사용`
+- **concept**: `## 원안 / 출처`, `## 핵심 원리`, `## 채택 사례`
 
 ## 핵심 작업 (LLM 역할)
 

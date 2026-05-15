@@ -65,14 +65,20 @@ updated: 2026-05-14
 - `~/.claude/projects/-home-sbyoo-work-space/memory/reference_obsidian_vault.md` 추가
 - 다음 세션에서 vault 작업 시 빠르게 컨텍스트 잡기
 
-## 미해결 질문
+## 미해결 질문 → 사후 결정 (2026-05-14 정리)
 
 - **Plugin 정책** — `obsidian-git` 을 완전 비활성으로 둘지, read-only view 용도로 유지할지
-- **자동 commit/push** — ingest 직후 git push 까지 Claude 가 자동으로 처리하도록 schema 에 명시할지 (현재는 수동)
+  → **결정**: read-only view 로 활성 유지. plugin 자체의 auto-commit/push 기능은 OFF. 실제 동기화는 WSL git ([[Claude]]) 이 단일하게 담당. [[Obsidian]] entity 페이지에 반영.
+- **자동 commit/push** — ingest 직후 git push 까지 Claude 가 자동으로 처리하도록 schema 에 명시할지
+  → **결정**: 자동 처리. [[CLAUDE]] schema 에 "Git 동기화" 섹션 신설 — vault 변경이 발생한 모든 작업 직후 `git add/commit/push` 까지 자동 실행.
 - **Entity 카테고리** — `model` 또는 별도 LLM 카테고리를 만들지. 현재 [[Claude]] 는 `tool` 로 분류
+  → **보류**: 현재는 `tool` 로 충분. 모델 인스턴스가 다수 누적되어 카테고리 재정의 필요해질 때 다시 본다.
 - **검색 부하** — discussion source 가 누적되면 graph/검색이 무거워질 가능성. Dataview plugin 도입 시점 판단 필요
+  → **보류**: 아직 부하 없음. 향후 source 수십 개 누적 시 재검토.
 - **Newsletter 운영 디테일** — 발행처 entity 의 추가 필드 (rss/site/cadence 등) 운영 룰
-- **편집 충돌** — WSL 측 git 작업 중 Obsidian 이 동일 파일 편집 중일 때의 충돌 처리. 현재는 사용자 주의에 의존
+  → **해소**: 이미 [[YozmIT]] ingest 시 publisher entity 신설 + frontmatter superset 적용으로 별도 룰 없이 작동. 추가 필드는 필요 시점에 자연 추가.
+- **편집 충돌** — WSL 측 git 작업 중 Obsidian 이 동일 파일 편집 중일 때의 충돌 처리
+  → **해소**: 인프라적 해결책 없음. 사용자 주의로 운영. Claude 작업 중에는 Obsidian 의 동일 파일 편집을 피하거나, push 후 Obsidian 에서 명시적 새로고침 권장.
 
 ## Related
 

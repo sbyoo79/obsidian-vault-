@@ -47,7 +47,9 @@ bidirectional link, backlink, graph view, canvas, daily note, template, dataview
 
 - 브라우저 역할 (편집은 Claude Code 가 더 자주 함)
 - graph view 로 ingest 직후 연결 품질 검증
-- 설치 plugin: `obsidian-git` (현재 비활성 — WSL git 으로 동기화), `mermaid-tools`
+- 설치 plugin:
+  - `obsidian-git` — **read-only view 용도로 활성 유지**. history/diff 확인은 plugin 에서, 실제 commit/push 는 WSL git ([[Claude]]) 이 담당. plugin 의 auto-commit/push 는 OFF.
+  - `mermaid-tools` — mermaid diagram
 
 ## 관련 sources
 

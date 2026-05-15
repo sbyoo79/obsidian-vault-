@@ -166,3 +166,26 @@ format 별 추가 필드:
 - `CLAUDE.md` (본 파일) 변경 시 항상 사용자에게 보고한다.
 - 회사 정보(고객/매출/내부 기획) 가 우연히 source 로 들어오면 ingest 하지 않고 사용자에게 분리 보관을 권고한다.
 - `.obsidian/` 폴더는 건드리지 않는다.
+
+## Git 동기화
+
+vault 파일에 변경이 발생한 모든 작업(ingest / query 갱신 / lint 결과 저장 / schema 변경 등) 직후, Claude 는 작업 단위로 git 동기화까지 자동 처리한다.
+
+```bash
+git add -A
+git commit -m "{작업 성격을 반영한 메시지}"
+git push
+```
+
+- 커밋 단위는 **작업 단위** (한 ingest = 한 커밋, schema 변경은 별도 커밋).
+- 푸시 대상: `origin/main`.
+- 사용자가 "커밋은 보류" 등 명시적 보류를 지시하면 그 작업만 보류한다.
+
+### Plugin 정책
+
+`obsidian-git` plugin 은 **read-only view** 용도로만 유지한다.
+
+- 활성 상태 유지 (history/diff 확인용)
+- plugin 의 **auto-commit / auto-push 는 OFF**
+- 실제 commit/push 는 WSL git ([[Claude]]) 으로 단일 채널 운영
+- WSL ↔ Obsidian 양쪽 auto sync 가 돌면 충돌 위험이 있어 단일화 필수

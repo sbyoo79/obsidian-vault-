@@ -20,6 +20,7 @@ vault 의 카테고리별 카탈로그. 1 페이지당 1 줄로 간결하게 유
 ## Sources
 
 - [[karpathy-llm-wiki]] — Karpathy gist, LLM Wiki 패턴 원안 (2026-05-14)
+- [[2026-05-14-vault-setup-and-llm-wiki-adoption]] — 본 vault 초기 셋업 + LLM Wiki 채택 논의 (discussion, 2026-05-14)
 
 ## Notes
 

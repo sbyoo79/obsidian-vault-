@@ -13,15 +13,16 @@ LLM 이 markdown 위키를 점진적으로 빌드/유지하고, 사용자는 큐
 
 ```text
 Obsidian Vault/
-├── CLAUDE.md        ← 본 파일 (schema)
-├── index.md         ← 카테고리별 카탈로그
-├── log.md           ← append-only chronological 이력
-├── notes/           ← 자유 노트 (concept, daily, fleeting → permanent)
-├── entities/        ← 명사 페이지 (사람/회사/도구/개념 1개당 1 파일)
-├── sources/         ← 원본 metadata (article/paper/video/podcast)
-├── meta/            ← 운영 메타 (template, schema 부속, 자동화 규칙)
-└── Leadplanet/      ← 기존 폴더 (수정/이동 금지, 사용자가 결정)
+├── CLAUDE.md     ← 본 파일 (schema)
+├── index.md      ← 카테고리별 카탈로그
+├── log.md        ← append-only chronological 이력
+├── notes/        ← 자유 노트 (concept, daily, fleeting → permanent)
+├── entities/     ← 명사 페이지 (사람/회사/도구/개념 1개당 1 파일)
+├── sources/      ← 원본 metadata (article/paper/video/podcast)
+└── meta/         ← 운영 메타 (template, schema 부속, lint 결과)
 ```
+
+각 하위 폴더는 첫 콘텐츠가 생성될 때 자동으로 만들어진다. 빈 폴더는 vault 에 남기지 않는다.
 
 ## 페이지 컨벤션
 
@@ -81,7 +82,6 @@ updated: YYYY-MM-DD
 
 ## 안전 규칙
 
-- Claude 는 사용자 확인 없이 `Leadplanet/` 폴더 안을 수정하지 않는다.
 - `CLAUDE.md` (본 파일) 변경 시 항상 사용자에게 보고한다.
 - 회사 정보(고객/매출/내부 기획) 가 우연히 source 로 들어오면 ingest 하지 않고 사용자에게 분리 보관을 권고한다.
 - `.obsidian/` 폴더는 건드리지 않는다.

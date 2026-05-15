@@ -8,9 +8,6 @@
 # Obsidian trash
 .trash/
 
-# 회사/도메인 분리 영역 (개인 vault에 포함하지 않음)
-Leadplanet/
-
 # OS
 .DS_Store
 Thumbs.db

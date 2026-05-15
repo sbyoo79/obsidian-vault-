@@ -6,18 +6,19 @@ vault 의 카테고리별 카탈로그. 1 페이지당 1 줄로 간결하게 유
 ## Concepts / Patterns
 
 - [[CLAUDE]] — vault schema, LLM Wiki 패턴 적용 룰
+- [[LLM Wiki]] — Karpathy 가 제안한 LLM 주도 PKM 패턴
 
 ## People
 
-_(없음)_
+- [[Andrej Karpathy]] — AI 연구자, LLM Wiki 패턴 제안자
 
 ## Tools
 
-_(없음)_
+- [[Obsidian]] — local markdown PKM 앱, 이 vault 의 browser
 
 ## Sources
 
-_(없음)_
+- [[karpathy-llm-wiki]] — Karpathy gist, LLM Wiki 패턴 원안 (2026-05-14)
 
 ## Notes
 

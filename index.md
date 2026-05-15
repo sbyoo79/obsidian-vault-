@@ -14,6 +14,7 @@ vault 의 카테고리별 카탈로그. 1 페이지당 1 줄로 간결하게 유
 
 ## Tools
 
+- [[Claude]] — Anthropic LLM 어시스턴트, 이 vault 의 active agent
 - [[Obsidian]] — local markdown PKM 앱, 이 vault 의 browser
 
 ## Sources

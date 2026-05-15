@@ -64,9 +64,13 @@ Obsidian Vault/
 | 필드 | 값 |
 |------|------|
 | `author` | `[[Person]]` |
-| `format` | `article` / `video` / `podcast` / `book` / `paper` / `gist` / `thread` |
+| `format` | `article` / `video` / `podcast` / `book` / `paper` / `gist` / `thread` / `discussion` / `newsletter` |
 | `published` | `YYYY-MM-DD` (선택) |
 | `language` | `ko` / `en` / ... |
+
+format 별 추가 필드:
+- **discussion**: `model` (예: claude-opus-4-7), `session_date`
+- **newsletter**: `publisher` (== `author` 와 같으면 생략 가능), `received` (받은 날짜)
 
 ### Wiki link
 - 다른 페이지 참조는 `[[페이지 이름]]` 형식.
@@ -101,6 +105,40 @@ Obsidian Vault/
 3. 필요 시 `notes/{slug}.md` 에 사용자 관점의 정리 노트 작성
 4. `log.md` 에 한 줄 추가: `- YYYY-MM-DD ingest [[source/slug]] → updated [[entity-a]], [[entity-b]]`
 5. `index.md` 의 해당 카테고리 섹션에 신규 페이지 포인터 추가 (기존이면 갱신)
+
+#### Ingest sub-패턴 — discussion (Claude 와의 기술 논의)
+
+사용자가 Claude 와 어떤 주제로 논의를 마치고 "이 논의 vault 에 정리해줘" 라고 요청할 때:
+
+1. 대화 핵심 주제로 slug 추출 — kebab-case 영문
+2. `sources/discussions/YYYY-MM-DD-{slug}.md` 생성
+   - frontmatter: `type=source`, `format=discussion`, `author=[[Claude]]`, `model`, `session_date`, `tags`
+   - 본문 표준 섹션:
+     - `## 맥락` — 왜 이 논의를 했는가
+     - `## 핵심 결론` — 합의된 결과
+     - `## 결정` — 액션 아이템 / 채택된 방향
+     - `## 미해결 질문` — 추후 탐색 대상
+     - `## Related` — entity 링크
+3. 등장한 entity 추출 → `entities/` 신설·갱신
+4. 사용자 관점·의견이 두드러지면 `notes/{slug}.md` 작성
+5. `log.md`, `index.md` 갱신
+
+#### Ingest sub-패턴 — newsletter (메일링 요약)
+
+사용자가 메일 본문을 붙여넣고 "괜찮은 부분 요약해서 넘겨" 라고 요청할 때:
+
+1. 발행처 / 발행일 / 원문 URL 식별
+2. 사용자 관심 필터: 광고·PR 성 콘텐츠, 흥미 없는 주제는 ingest 거부 (사용자에게 확인)
+3. `sources/newsletters/YYYY-MM-DD-{publisher}-{slug}.md` 생성
+   - frontmatter: `type=source`, `format=newsletter`, `author=[[Publisher]]`, `publisher`, `received`, `url`, `published`, `language`, `tags`
+   - 본문 표준 섹션:
+     - `## 발행 정보` — 발행처/일자/원문 링크
+     - `## 핵심 요약` — 사용자 관점에서 가치 있는 부분 중심
+     - `## 인사이트` — 사용자가 한 번 더 곱씹을 만한 포인트
+     - `## Related` — entity 링크
+4. publisher 가 처음 등장하면 `entities/{Publisher}.md` 신설 (`category=org`)
+5. 가치 있는 idea / concept entity 도 함께 신설·갱신
+6. `log.md`, `index.md` 갱신
 
 ### Query — 위키에서 합성
 

@@ -8,3 +8,4 @@ vault 작업 이력. append-only. 절대 과거 항목을 수정하지 않는다
 - 2026-05-14 schema refine — [[CLAUDE]] frontmatter superset + entity 표준 섹션 추가. 기존 entity 3개([[Andrej Karpathy]], [[LLM Wiki]], [[Obsidian]]) 표준 섹션 따라 두텁게 재작성
 - 2026-05-14 schema extend — discussion / newsletter source 타입 추가 (`sources/discussions/`, `sources/newsletters/`), [[Claude]] entity 신설
 - 2026-05-14 ingest [[2026-05-14-vault-setup-and-llm-wiki-adoption]] (discussion) — 첫 dogfood discussion. 새 entity 없음, 기존 [[Claude]] [[LLM Wiki]] [[Obsidian]] [[Andrej Karpathy]] 참조
+- 2026-05-14 ingest [[yozm-agentic-engineering-survival]] (article) — DevOwen / YozmIT. 신규 entity 5개: [[DevOwen]], [[YozmIT]], [[Agentic Engineering]], [[AI Agent]], [[Context Engineering]]

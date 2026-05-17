@@ -15,6 +15,8 @@ vault 의 카테고리별 카탈로그. 1 페이지당 1 줄로 간결하게 유
 - [[Role-Reversal Dialogue]] — LLM 역할 반전으로 self-distancing 적용
 - [[SEO]] — 전통 검색엔진 최적화
 - [[GEO]] — AI 답변 본문 인용을 노리는 생성형 엔진 최적화
+- [[Self-Improving Agent]] — 외부 저장된 절차 재사용으로 진화하는 에이전트 패턴
+- [[Procedural Memory]] — "어떻게 하는지" 의 외부화된 기억
 
 ## People
 
@@ -22,11 +24,13 @@ vault 의 카테고리별 카탈로그. 1 페이지당 1 줄로 간결하게 유
 - [[DevOwen]] — 요즘IT 기고자, 에이전틱 엔지니어링 주제
 - [[Dinon]] — 요즘IT 기고자, AI 의 개인 심리/의사결정 활용
 - [[양용준]] — 서치나인 대표, SEO/GEO 컨설턴트
+- [[덕파]] — 요즘IT 기고자, AI 에이전트 도구 분석
 
 ## Organizations
 
 - [[YozmIT]] — 위시켓 운영 한국 IT 매거진
 - [[서치나인]] — 한국 SEO/GEO 컨설팅 회사
+- [[Nous Research]] — 오픈소스 LLM·에이전트 연구 조직
 
 ## Tools
 
@@ -34,6 +38,8 @@ vault 의 카테고리별 카탈로그. 1 페이지당 1 줄로 간결하게 유
 - [[ChatGPT]] — OpenAI LLM 챗, [[Claude]] 의 직접 비교 대상
 - [[Obsidian]] — local markdown PKM 앱, 이 vault 의 browser
 - [[Google Search Console]] — 구글 무료 검색 성과 모니터링 도구
+- [[Hermes Agent]] — Nous Research 의 self-improving AI 에이전트
+- [[OpenRouter]] — 다수 LLM 통합 API 게이트웨이
 
 ## Sources
 
@@ -41,6 +47,7 @@ vault 의 카테고리별 카탈로그. 1 페이지당 1 줄로 간결하게 유
 - [[yozm-agentic-engineering-survival]] — DevOwen, 에이전틱 엔지니어링 시대 생존 전략 (article, 2026-05-14)
 - [[yozm-solomon-paradox-ai]] — Dinon, 솔로몬 역설 + AI 역할 반전 (article, 2026-05-14)
 - [[yozm-geo-leading-indicators]] — 양용준, GEO 성과 측정의 전조 지표 (article, 2026-05-14)
+- [[yozm-hermes-agent-self-improving]] — 덕파, Hermes Agent 자가 성장 메커니즘 분석 (article, 2026-05-18)
 - [[2026-05-14-vault-setup-and-llm-wiki-adoption]] — 본 vault 초기 셋업 + LLM Wiki 채택 논의 (discussion, 2026-05-14)
 
 ## Notes

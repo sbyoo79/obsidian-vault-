@@ -13,3 +13,4 @@ vault 작업 이력. append-only. 절대 과거 항목을 수정하지 않는다
 - 2026-05-14 schema decision — [[2026-05-14-vault-setup-and-llm-wiki-adoption]] 미해결 질문 사후 정리. [[CLAUDE]] 에 "Git 동기화" 섹션 신설 (자동 commit/push), `obsidian-git` plugin read-only view 정책 명시
 - 2026-05-14 ingest [[yozm-geo-leading-indicators]] (article) — 양용준 / 서치나인 / YozmIT. 신규 entity 5개: [[양용준]], [[서치나인]], [[GEO]], [[SEO]], [[Google Search Console]]. 자동 push 룰 발효 후 첫 ingest.
 - 2026-05-14 create [[weekly-workout-routine]] (note) — 47세 관절 보호 컨셉 주 5일 헬스 루틴 작성. Lower A / Upper Push / Mobility / Lower B / Upper Pull 구성
+- 2026-05-18 ingest [[yozm-hermes-agent-self-improving]] (article) — 덕파 / YozmIT. 신규 entity 6개: [[덕파]], [[Hermes Agent]], [[Nous Research]], [[OpenRouter]], [[Self-Improving Agent]], [[Procedural Memory]]

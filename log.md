@@ -19,3 +19,4 @@ vault 작업 이력. append-only. 절대 과거 항목을 수정하지 않는다
 - 2026-05-18 create [[resume-master]] — 이력서 PDF → markdown 변환 + P0 수정 (오타/표기/자기 깎기 표현). private/resume-context.md 도 같이 생성 (gitignore)
 - 2026-05-18 create [[self-profile]] — 인터뷰 라운드 2 답변 누적 정리. tech stack self-assessment (5단계), 5대 강점, 약점·보완, 차별 포지셔닝, 적합/회피 회사 유형. private 에 면접 답변 초안 분리 정리.
 - 2026-05-18 update [[self-profile]] — 인터뷰 라운드 3 답변 반영. 매칭 기준 (희망 조건) 섹션 추가: 50~200명 / SaaS·ERP·커머스 / 리더십 50:50 / 하이브리드 / 통근 1시간 이내. 연봉 하한은 private 에 보관.
+- 2026-05-18 update [[self-profile]] — 통근 한계 1시간 → 1시간 30분으로 현실 반영. 매칭 가능 지역 표를 2 단계로 분리 (1h 이내 편안 / 1h~1h30 현실)

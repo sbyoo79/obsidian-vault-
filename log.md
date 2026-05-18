@@ -17,3 +17,4 @@ vault 작업 이력. append-only. 절대 과거 항목을 수정하지 않는다
 - 2026-05-18 setup yozm daily digest — `common/sh/yozm-daily-digest.py` 작성. 첫 실행 시 `meta/digests/yozm-2026-05-18.md` 생성. 개선 백로그는 [[yozm-digest-improvements]]
 - 2026-05-18 ingest [[yozm-vibe-coding-real-start]] (article, 번역) — Ahmed Hafdi / Yuna 번역 / YozmIT. 신규 entity 5개: [[Ahmed Hafdi]], [[Yuna]], [[Vibe Coding]], [[Cursor]], [[Simon Willison]]. [[Andrej Karpathy]] 페이지에 Vibe Coding 명명자 정보 추가. 디지스트 #1 상태 마킹 갱신.
 - 2026-05-18 create [[resume-master]] — 이력서 PDF → markdown 변환 + P0 수정 (오타/표기/자기 깎기 표현). private/resume-context.md 도 같이 생성 (gitignore)
+- 2026-05-18 create [[self-profile]] — 인터뷰 라운드 2 답변 누적 정리. tech stack self-assessment (5단계), 5대 강점, 약점·보완, 차별 포지셔닝, 적합/회피 회사 유형. private 에 면접 답변 초안 분리 정리.

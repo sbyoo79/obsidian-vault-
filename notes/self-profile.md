@@ -27,9 +27,11 @@ updated: 2026-05-18
 | Python | 3 | Flask / FastAPI |
 | C# | 3 | SK 커뮤니 시기 (.NET) |
 | PHP | 3 | 티몬 마이티몬 |
-| JavaScript / TS | 3 | React-Redux, jQuery, Vue.js, Angular 1.0 (레거시 위주) |
+| JavaScript | 3 | React-Redux, jQuery, Vue.js, Angular 1.0 (레거시 위주) |
+| TypeScript | 3 | 실무 사용 가능 |
+| Node.js | 3 | Node 위 작업 경험 있음 (코드보다 인프라·실행 측면 중심, JS 기반 빠른 적응) |
 
-### 프레임워크
+### 프레임워크 / 라이브러리
 
 | 항목 | 레벨 | 비고 |
 |------|------|------|
@@ -38,6 +40,9 @@ updated: 2026-05-18
 | Spring Security | 3 | |
 | JPA | 3 | |
 | FastAPI / Flask | 3 | |
+| React | 3 | React-Redux 경험 (티몬·케이타운포유 레거시) |
+| GraphQL | 3 | 실무 사용 가능 |
+| Hasura | 1 | 개념만 인지 (Postgres + GraphQL 위 layer), 짧은 학습 곡선 |
 
 ### 인프라 / 데이터
 

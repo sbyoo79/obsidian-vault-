@@ -22,3 +22,5 @@ vault 작업 이력. append-only. 절대 과거 항목을 수정하지 않는다
 - 2026-05-18 update [[self-profile]] — 통근 한계 1시간 → 1시간 30분으로 현실 반영. 매칭 가능 지역 표를 2 단계로 분리 (1h 이내 편안 / 1h~1h30 현실)
 - 2026-05-18 update [[self-profile]] — 회사 규모 50~200 항목을 "선호하되 그 이상도 OK" 로 유연 조정. 첫 매칭 시범 (무신사 / private) 진행하며 발견된 사용자 실제 기준 반영.
 - 2026-05-18 update [[self-profile]] — 두 번째 매칭 시범 (InSpline) 결과 self-profile 정교화: (1) 회사 규모 하한 명시 (5~30명 초기 단계 배제, 안정성 우선), (2) 자금 단계 항목 신설 (Series A+ 또는 안정 흑자 우선), (3) 글로벌/외국계 입장 갱신 (영어 약점 보완 기회로 적극), (4) 회피 영역에 0→1·초기 단계 추가
+- 2026-05-18 update [[self-profile]] — 언어/프레임워크 표 정교화: TypeScript/JavaScript/Node.js 분리, React/GraphQL/Hasura 항목 추가. Fieldguide 매칭 시 발견된 빈틈 보완.
+- 2026-05-18 third match (private) — Fieldguide / Software Engineer (Korea) 매칭 분석. **9.0/10, 본격 검토 1호 후보**. Customized resume 작성 (~/work-space/이력서_유승보_fieldguide_2026-05.md, vault 외부).

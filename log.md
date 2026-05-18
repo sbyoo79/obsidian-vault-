@@ -25,3 +25,4 @@ vault 작업 이력. append-only. 절대 과거 항목을 수정하지 않는다
 - 2026-05-18 update [[self-profile]] — 언어/프레임워크 표 정교화: TypeScript/JavaScript/Node.js 분리, React/GraphQL/Hasura 항목 추가. Fieldguide 매칭 시 발견된 빈틈 보완.
 - 2026-05-18 third match (private) — Fieldguide / Software Engineer (Korea) 매칭 분석. **9.0/10, 본격 검토 1호 후보**. Customized resume 작성 (~/work-space/이력서_유승보_fieldguide_2026-05.md, vault 외부).
 - 2026-05-19 Fieldguide 영문 지원 자료 작성 — 채용 페이지 영문 확인 후 영문 이력서 1p / 2p + cover letter 작성 (~/work-space/resume_seungbo-yoo_fieldguide_2026-05_{1page,2page}.md, ~/work-space/cover-letter_seungbo-yoo_fieldguide_2026-05.md, vault 외부). 한글 customized resume 베이스로 미국 컨벤션 적용 (요약·강조 differentiator·과거형 동사·정량 메트릭·1페이지 압축).
+- 2026-05-19 Fieldguide 매칭 정보 갱신 (private) — 지원 양식에서 확인: 오피스 위치 대치동 → **여의도** (부평 통근 1h 이내), 근무 시간 **KST 06:00 시작** (미국 본사 overlap, 이른 시간 remote 허용 + 오전 중 오피스 출근). 통근 평가는 더 좋아짐, 단 06:00 시작이 본인 생활 패턴과 호환되는지 점검 항목으로 추가.

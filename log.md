@@ -16,3 +16,4 @@ vault 작업 이력. append-only. 절대 과거 항목을 수정하지 않는다
 - 2026-05-18 ingest [[yozm-hermes-agent-self-improving]] (article) — 덕파 / YozmIT. 신규 entity 6개: [[덕파]], [[Hermes Agent]], [[Nous Research]], [[OpenRouter]], [[Self-Improving Agent]], [[Procedural Memory]]
 - 2026-05-18 setup yozm daily digest — `common/sh/yozm-daily-digest.py` 작성. 첫 실행 시 `meta/digests/yozm-2026-05-18.md` 생성. 개선 백로그는 [[yozm-digest-improvements]]
 - 2026-05-18 ingest [[yozm-vibe-coding-real-start]] (article, 번역) — Ahmed Hafdi / Yuna 번역 / YozmIT. 신규 entity 5개: [[Ahmed Hafdi]], [[Yuna]], [[Vibe Coding]], [[Cursor]], [[Simon Willison]]. [[Andrej Karpathy]] 페이지에 Vibe Coding 명명자 정보 추가. 디지스트 #1 상태 마킹 갱신.
+- 2026-05-18 create [[resume-master]] — 이력서 PDF → markdown 변환 + P0 수정 (오타/표기/자기 깎기 표현). private/resume-context.md 도 같이 생성 (gitignore)

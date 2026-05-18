@@ -60,6 +60,7 @@ vault 의 카테고리별 카탈로그. 1 페이지당 1 줄로 간결하게 유
 
 - [[weekly-workout-routine]] — 47세 관절 보호 + 건강 우선 주 5일 헬스 루틴 (living doc)
 - [[yozm-digest-improvements]] — yozm 일일 디지스트 스크립트 개선 백로그
+- [[resume-master]] — 이력서 master (P0 수정 반영, customized 버전의 베이스)
 
 ## Meta
 

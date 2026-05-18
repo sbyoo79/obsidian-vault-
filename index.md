@@ -17,6 +17,7 @@ vault 의 카테고리별 카탈로그. 1 페이지당 1 줄로 간결하게 유
 - [[GEO]] — AI 답변 본문 인용을 노리는 생성형 엔진 최적화
 - [[Self-Improving Agent]] — 외부 저장된 절차 재사용으로 진화하는 에이전트 패턴
 - [[Procedural Memory]] — "어떻게 하는지" 의 외부화된 기억
+- [[Vibe Coding]] — Karpathy 명명, AI 코드 검증 없이 받아들이는 방식
 
 ## People
 
@@ -25,6 +26,9 @@ vault 의 카테고리별 카탈로그. 1 페이지당 1 줄로 간결하게 유
 - [[Dinon]] — 요즘IT 기고자, AI 의 개인 심리/의사결정 활용
 - [[양용준]] — 서치나인 대표, SEO/GEO 컨설턴트
 - [[덕파]] — 요즘IT 기고자, AI 에이전트 도구 분석
+- [[Ahmed Hafdi]] — Medium 엔지니어링 작가, Vibe Coding 비평
+- [[Yuna]] — 요즘IT 번역가
+- [[Simon Willison]] — Django 공동창립자, LLM 영역 영향력 블로거
 
 ## Organizations
 
@@ -40,6 +44,7 @@ vault 의 카테고리별 카탈로그. 1 페이지당 1 줄로 간결하게 유
 - [[Google Search Console]] — 구글 무료 검색 성과 모니터링 도구
 - [[Hermes Agent]] — Nous Research 의 self-improving AI 에이전트
 - [[OpenRouter]] — 다수 LLM 통합 API 게이트웨이
+- [[Cursor]] — VS Code 기반 AI 통합 코드 에디터
 
 ## Sources
 
@@ -48,6 +53,7 @@ vault 의 카테고리별 카탈로그. 1 페이지당 1 줄로 간결하게 유
 - [[yozm-solomon-paradox-ai]] — Dinon, 솔로몬 역설 + AI 역할 반전 (article, 2026-05-14)
 - [[yozm-geo-leading-indicators]] — 양용준, GEO 성과 측정의 전조 지표 (article, 2026-05-14)
 - [[yozm-hermes-agent-self-improving]] — 덕파, Hermes Agent 자가 성장 메커니즘 분석 (article, 2026-05-18)
+- [[yozm-vibe-coding-real-start]] — Ahmed Hafdi (Yuna 번역), Vibe Coding 한계와 검증 시대 (article, 2026-05-18)
 - [[2026-05-14-vault-setup-and-llm-wiki-adoption]] — 본 vault 초기 셋업 + LLM Wiki 채택 논의 (discussion, 2026-05-14)
 
 ## Notes

@@ -23,7 +23,9 @@ Stanford 박사 시절 Fei-Fei Li 지도 하에 deep learning + computer vision 
 
 ## 본 vault 에서의 의미
 
-[[LLM Wiki]] 패턴의 원안 제시자. 본 vault 의 schema [[CLAUDE]] 가 이 패턴을 채택했다. 그의 글·코드는 "LLM 이 일상 도구가 되는 시대의 워크플로" 를 사고하는 출발점으로 자주 참조된다.
+[[LLM Wiki]] 패턴의 원안 제시자. 본 vault 의 schema [[CLAUDE]] 가 이 패턴을 채택했다. 또 그는 [[Vibe Coding]] 도 명명했는데 (2025-02 트윗), LLM Wiki 와 Vibe Coding 은 같은 사람의 입에서 나왔지만 **정반대 결의 사상**이다 — 전자는 "외부화·검증 가능", 후자는 "검증 없는 즉흥". 본 vault 는 전자 편.
+
+그의 글·코드는 "LLM 이 일상 도구가 되는 시대의 워크플로" 를 사고하는 출발점으로 자주 참조된다.
 
 ## Key facts
 
@@ -49,10 +51,12 @@ Stanford 박사 시절 Fei-Fei Li 지도 하에 deep learning + computer vision 
 
 ## 관련 sources
 
-- [[karpathy-llm-wiki]]
+- [[karpathy-llm-wiki]] — LLM Wiki 원안
+- [[yozm-vibe-coding-real-start]] — Vibe Coding 명명자로 언급
 
 ## 관련 entities
 
-- [[LLM Wiki]] — 그가 제안한 패턴
+- [[LLM Wiki]] — 그가 제안한 PKM 패턴 (외부화 사상)
+- [[Vibe Coding]] — 그가 명명한 즉흥 코딩 (대조 사상)
 - [[OpenAI]] — 공동창립 (페이지 미생성)
 - [[Eureka Labs]] — 현 소속 (페이지 미생성)

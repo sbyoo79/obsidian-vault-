@@ -8,6 +8,9 @@
 # Obsidian trash
 .trash/
 
+# 민감 사적 메모 (연봉/평가/진행 중 지원 등)
+notes/private/
+
 # OS
 .DS_Store
 Thumbs.db

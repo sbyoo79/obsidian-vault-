@@ -35,6 +35,7 @@ vault 의 카테고리별 카탈로그. 1 페이지당 1 줄로 간결하게 유
 - [[Yuna]] — 요즘IT 번역가
 - [[Simon Willison]] — Django 공동창립자, LLM 영역 영향력 블로거
 - [[프로덕트 밸리]] — 요즘IT 기고, Product / Analytics / Vibe Coding 영역
+- [[Igor Grossmann]] — 워털루대 심리학자, Self-Distancing / Solomon's Paradox 연구
 
 ## Organizations
 
@@ -42,6 +43,8 @@ vault 의 카테고리별 카탈로그. 1 페이지당 1 줄로 간결하게 유
 - [[서치나인]] — 한국 SEO/GEO 컨설팅 회사
 - [[Nous Research]] — 오픈소스 LLM·에이전트 연구 조직
 - [[골든래빗]] — 한국 IT/개발 전문 출판사, YozmIT 기고
+- [[OpenAI]] — ChatGPT / GPT 시리즈 제조사
+- [[Anthropic]] — Claude 제조사, AI 안전 중심
 
 ## Tools
 
@@ -53,6 +56,9 @@ vault 의 카테고리별 카탈로그. 1 페이지당 1 줄로 간결하게 유
 - [[OpenRouter]] — 다수 LLM 통합 API 게이트웨이
 - [[Cursor]] — VS Code 기반 AI 통합 코드 에디터
 - [[PostHog]] — 오픈소스 통합 Product Analytics (이벤트·리플레이·플래그·설문)
+- [[Umami]] — 가벼운 오픈소스 web analytics, self-host 무료, 쿠키리스
+- [[Mixpanel]] — 상업 product analytics, 코호트·퍼널·리텐션 강함
+- [[Plausible Analytics]] — 프라이버시 우선 가벼운 web analytics
 
 ## Sources
 

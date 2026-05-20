@@ -18,6 +18,7 @@ vault 의 카테고리별 카탈로그. 1 페이지당 1 줄로 간결하게 유
 - [[Self-Improving Agent]] — 외부 저장된 절차 재사용으로 진화하는 에이전트 패턴
 - [[Procedural Memory]] — "어떻게 하는지" 의 외부화된 기억
 - [[Vibe Coding]] — Karpathy 명명, AI 코드 검증 없이 받아들이는 방식
+- [[백엔드 로드맵]] — 백엔드 입문자 학습 우선순위 자료 패턴
 
 ## People
 
@@ -35,6 +36,7 @@ vault 의 카테고리별 카탈로그. 1 페이지당 1 줄로 간결하게 유
 - [[YozmIT]] — 위시켓 운영 한국 IT 매거진
 - [[서치나인]] — 한국 SEO/GEO 컨설팅 회사
 - [[Nous Research]] — 오픈소스 LLM·에이전트 연구 조직
+- [[골든래빗]] — 한국 IT/개발 전문 출판사, YozmIT 기고
 
 ## Tools
 
@@ -54,6 +56,7 @@ vault 의 카테고리별 카탈로그. 1 페이지당 1 줄로 간결하게 유
 - [[yozm-geo-leading-indicators]] — 양용준, GEO 성과 측정의 전조 지표 (article, 2026-05-14)
 - [[yozm-hermes-agent-self-improving]] — 덕파, Hermes Agent 자가 성장 메커니즘 분석 (article, 2026-05-18)
 - [[yozm-vibe-coding-real-start]] — Ahmed Hafdi (Yuna 번역), Vibe Coding 한계와 검증 시대 (article, 2026-05-18)
+- [[yozm-backend-roadmap]] — 골든래빗, 백엔드 학습 로드맵 입문 가이드 (article, 2023-06-13)
 - [[2026-05-14-vault-setup-and-llm-wiki-adoption]] — 본 vault 초기 셋업 + LLM Wiki 채택 논의 (discussion, 2026-05-14)
 
 ## Notes
@@ -62,6 +65,7 @@ vault 의 카테고리별 카탈로그. 1 페이지당 1 줄로 간결하게 유
 - [[yozm-digest-improvements]] — yozm 일일 디지스트 스크립트 개선 백로그
 - [[resume-master]] — 이력서 master (P0 수정 반영, customized 버전의 베이스)
 - [[self-profile]] — 본인 자기 평가·포지셔닝 (tech stack 5단계, 5대 강점, 약점, 차별점, 적합/회피 회사 유형)
+- [[backend-roadmap-for-juniors]] — 21년차 시니어가 후배에게 추천하는 백엔드 학습 가이드 + 보강 5영역
 
 ## Meta
 

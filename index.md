@@ -19,6 +19,7 @@ vault 의 카테고리별 카탈로그. 1 페이지당 1 줄로 간결하게 유
 - [[Procedural Memory]] — "어떻게 하는지" 의 외부화된 기억
 - [[Vibe Coding]] — Karpathy 명명, AI 코드 검증 없이 받아들이는 방식
 - [[백엔드 로드맵]] — 백엔드 입문자 학습 우선순위 자료 패턴
+- [[Product Analytics]] — 사용자 행동 기반 PMF / 활성화 / 리텐션 검증 영역
 
 ## People
 
@@ -30,6 +31,7 @@ vault 의 카테고리별 카탈로그. 1 페이지당 1 줄로 간결하게 유
 - [[Ahmed Hafdi]] — Medium 엔지니어링 작가, Vibe Coding 비평
 - [[Yuna]] — 요즘IT 번역가
 - [[Simon Willison]] — Django 공동창립자, LLM 영역 영향력 블로거
+- [[프로덕트 밸리]] — 요즘IT 기고, Product / Analytics / Vibe Coding 영역
 
 ## Organizations
 
@@ -47,6 +49,7 @@ vault 의 카테고리별 카탈로그. 1 페이지당 1 줄로 간결하게 유
 - [[Hermes Agent]] — Nous Research 의 self-improving AI 에이전트
 - [[OpenRouter]] — 다수 LLM 통합 API 게이트웨이
 - [[Cursor]] — VS Code 기반 AI 통합 코드 에디터
+- [[PostHog]] — 오픈소스 통합 Product Analytics (이벤트·리플레이·플래그·설문)
 
 ## Sources
 
@@ -57,6 +60,7 @@ vault 의 카테고리별 카탈로그. 1 페이지당 1 줄로 간결하게 유
 - [[yozm-hermes-agent-self-improving]] — 덕파, Hermes Agent 자가 성장 메커니즘 분석 (article, 2026-05-18)
 - [[yozm-vibe-coding-real-start]] — Ahmed Hafdi (Yuna 번역), Vibe Coding 한계와 검증 시대 (article, 2026-05-18)
 - [[yozm-backend-roadmap]] — 골든래빗, 백엔드 학습 로드맵 입문 가이드 (article, 2023-06-13)
+- [[yozm-analytics-for-vibe-coders]] — 프로덕트 밸리, 바이브코더용 무료 분석 도구 5 개 가이드 (article, 2026-05-20)
 - [[2026-05-14-vault-setup-and-llm-wiki-adoption]] — 본 vault 초기 셋업 + LLM Wiki 채택 논의 (discussion, 2026-05-14)
 
 ## Notes
@@ -66,6 +70,7 @@ vault 의 카테고리별 카탈로그. 1 페이지당 1 줄로 간결하게 유
 - [[resume-master]] — 이력서 master (P0 수정 반영, customized 버전의 베이스)
 - [[self-profile]] — 본인 자기 평가·포지셔닝 (tech stack 5단계, 5대 강점, 약점, 차별점, 적합/회피 회사 유형)
 - [[backend-roadmap-for-juniors]] — 21년차 시니어가 후배에게 추천하는 백엔드 학습 가이드 + 보강 5영역
+- [[product-analytics-for-self-built-systems]] — 본인 광고 플랫폼·사이드 프로젝트에 PostHog/Umami 도입 검토
 
 ## Meta
 

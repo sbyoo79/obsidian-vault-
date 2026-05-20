@@ -154,6 +154,7 @@ format 별 추가 필드:
 - orphan 페이지(아무도 링크 안 한 페이지) 식별
 - 깨진 `[[...]]` (대상 미존재) 식별 → 신규 페이지 자리 표시인지 미스타이프인지 분류
 - 같은 entity 가 다른 이름으로 여러 페이지에 존재(중복) 식별
+- **루트에 위치한 비-규정 `.md` 식별** — vault 루트는 `CLAUDE.md` / `index.md` / `log.md` 만 허용. 그 외 `.md` 가 루트에 있으면 위치 이동 또는 삭제 후보 (예: Obsidian 의 wikilink 자동 생성으로 빈 페이지가 루트에 만들어지는 사례)
 - 결과를 `meta/lint-{YYYY-MM-DD}.md` 로 저장 + `log.md` 한 줄
 
 ## index.md / log.md 규칙

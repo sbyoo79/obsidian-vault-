@@ -21,6 +21,8 @@ vault 의 카테고리별 카탈로그. 1 페이지당 1 줄로 간결하게 유
 - [[백엔드 로드맵]] — 백엔드 입문자 학습 우선순위 자료 패턴
 - [[Product Analytics]] — 사용자 행동 기반 PMF / 활성화 / 리텐션 검증 영역
 - [[전조 지표]] — 최종 KPI 보다 먼저 움직이는 측정 지표. GEO/Product Analytics/Agentic Engineering 공통 메타
+- [[PMF]] — Product-Market Fit, 신규 제품의 핵심 마일스톤
+- [[Aha Moment]] — 사용자가 제품 가치를 처음 체감하는 순간, PMF 활성화 신호 기준
 
 ## People
 

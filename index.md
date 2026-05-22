@@ -24,6 +24,7 @@ vault 의 카테고리별 카탈로그. 1 페이지당 1 줄로 간결하게 유
 - [[PMF]] — Product-Market Fit, 신규 제품의 핵심 마일스톤
 - [[Aha Moment]] — 사용자가 제품 가치를 처음 체감하는 순간, PMF 활성화 신호 기준
 - [[AI-driven R&D]] — AI 가 AI 모델 개발 자체를 가속화하는 Anthropic 4대 연구 의제 중 하나
+- [[Agent Payments Protocol]] — Google 의 AI 에이전트 자율 결제 표준 (AP2, 2026 I/O)
 
 ## People
 
@@ -39,6 +40,7 @@ vault 의 카테고리별 카탈로그. 1 페이지당 1 줄로 간결하게 유
 - [[Igor Grossmann]] — 워털루대 심리학자, Self-Distancing / Solomon's Paradox 연구
 - [[Jack Clark]] — Anthropic 공동창업자, 정책·외부 커뮤니케이션
 - [[트파원]] — 요즘IT 기고자, AI 산업 인재·전략 분석
+- [[미어캣]] — 요즘IT 기고자, 빅테크 컨퍼런스·제품 발표 정리
 
 ## Organizations
 
@@ -48,6 +50,7 @@ vault 의 카테고리별 카탈로그. 1 페이지당 1 줄로 간결하게 유
 - [[골든래빗]] — 한국 IT/개발 전문 출판사, YozmIT 기고
 - [[OpenAI]] — ChatGPT / GPT 시리즈 제조사
 - [[Anthropic]] — Claude 제조사, AI 안전 중심, AI-driven R&D 의제 주도
+- [[Google]] — 빅테크, Gemini 풀스택 AI 통합 전략 (3 파전 한 축)
 - [[Eureka Labs]] — Karpathy 가 2024 설립한 AI 교육 스타트업 (2026-05 보류)
 
 ## Tools
@@ -63,6 +66,8 @@ vault 의 카테고리별 카탈로그. 1 페이지당 1 줄로 간결하게 유
 - [[Umami]] — 가벼운 오픈소스 web analytics, self-host 무료, 쿠키리스
 - [[Mixpanel]] — 상업 product analytics, 코호트·퍼널·리텐션 강함
 - [[Plausible Analytics]] — 프라이버시 우선 가벼운 web analytics
+- [[Gemini]] — Google LLM 시리즈 (Pro/Flash/Omni), 본인 미검증
+- [[Antigravity]] — Google 에이전트 코딩 IDE, 본인 미검증
 
 ## Sources
 
@@ -75,6 +80,7 @@ vault 의 카테고리별 카탈로그. 1 페이지당 1 줄로 간결하게 유
 - [[yozm-backend-roadmap]] — 골든래빗, 백엔드 학습 로드맵 입문 가이드 (article, 2023-06-13)
 - [[yozm-analytics-for-vibe-coders]] — 프로덕트 밸리, 바이브코더용 무료 분석 도구 5 개 가이드 (article, 2026-05-20)
 - [[yozm-karpathy-anthropic-join]] — 트파원, Karpathy 의 Anthropic 합류 분석 (article, 2026-05-21)
+- [[yozm-google-io-2026-gemini-eats-google]] — 미어캣, 구글 I/O 2026 풀스택 AI 통합 전략 정리 (article, 2026-05-21)
 - [[2026-05-14-vault-setup-and-llm-wiki-adoption]] — 본 vault 초기 셋업 + LLM Wiki 채택 논의 (discussion, 2026-05-14)
 
 ## Notes

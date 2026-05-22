@@ -27,7 +27,8 @@ updated: 2026-05-22
 | [[Claude]] Code | 문서 작성 우세 — 인계 가능 상태 유지에 강함 | 레거시 분석 깊이 ([[Codex]] 대비) |
 | [[Codex]] | 레거시 분석력 — 오래된 코드 맥락 파악 우세 | 문서 일관성 ([[Claude]] 대비) |
 | [[ChatGPT]] | 설계·아이디어 발산 단계에 적합 | 구현·리뷰는 다른 도구로 위임 |
-| Gemini | (미검증) | 본인 실사용 안 됨. Google 자금력이 도구 우위로 실제 이어졌는지 미확인 |
+| [[Gemini]] | (미검증) | 본인 실사용 안 됨. Google 자금력이 도구 우위로 실제 이어졌는지 미확인 |
+| [[Antigravity]] (Google 코딩 IDE) | (미검증) | 2.0 강제 전환 잡음 보도 ([[yozm-google-io-2026-gemini-eats-google]]). 직접 검증 시점 아직 없음 |
 
 ## 도구별 메모
 
@@ -50,11 +51,33 @@ updated: 2026-05-22
 - [[Anthropic]] / [[OpenAI]] 와 같은 축에서 비교 가능한 또 하나의 프론티어 모델인데, 검증 부재가 본인 도구 풀에 빈틈
 - Google 의 자금력 자체는 시장 관전 신호로 [[ai-market-pulse]] 에 별도 추적 — 자금력이 도구 우위로 이어졌는지는 본인이 직접 써봐야 답 가능
 
+**외부 정보 누적 (2026-05, [[yozm-google-io-2026-gemini-eats-google]])**:
+- Gemini 3.5 Flash: Terminal-Bench 2.1 **76.2%** (vs GPT-5.5 78.2%)
+- 도구 선택·멀티모달 업계 최상위 평가
+- 토큰 가격 **3 배 인상** (Pro 대비 25% 저렴)
+- 고객 사례: 다른 최상위 모델 80% 작업 이전 → 연 $10억+ 절감
+- 본인 해석: 가격·성능만 보면 진입 검토 가치 있음. 다만 본인 작업 ([[Claude]] Code + [[Codex]] 검증 루프) 의 일관성을 깨면서까지 들여올 이유는 아직 없음. **검증 실험 시점은 본인 워크플로에 빈틈 발견 시**.
+
+### Antigravity — 미검증, UX 안정성 사례
+- [[Google]] 의 코딩 IDE. 2026-05 I/O 에서 2.0 발표
+- 사용자 반응: "이전 버전으로 돌아가는 방법" 검색이 1 위 — 에이전트 중심 강제 전환 불만 ([[yozm-google-io-2026-gemini-eats-google]])
+- 본인 해석: **UX 안정성 = 새로운 평가 축**. 본인이 [[Claude]] Code · [[Codex]] 를 계속 쓰는 이유 중 하나가 두 도구의 메이저 버전업 시에도 워크플로가 깨지지 않는 점. Antigravity 사례는 그 안정성이 당연하지 않다는 반례.
+
 ## 누적 사용 사례
 
 (향후 작업에서 어느 도구가 결정적이었는지 한 줄씩 누적)
 
 - 2026-05-22 [[yozm-karpathy-anthropic-join]] ingest — Claude Code 단독 작업. 외부 자료 fetch + vault schema 따라 다중 entity 신설·갱신 / git 동기화 일관성 유지. 도구 적합 (문서·구조 작업).
+- 2026-05-22 [[yozm-google-io-2026-gemini-eats-google]] ingest — Claude Code 단독 작업. 6 개 신규 entity + 2 개 living doc 갱신 + cross-ref 일관성 유지. 도구 적합 재확인 (다중 파일 동시 작업 + 기존 노트 정합성 갱신).
+
+## 평가 축
+
+| 축 | 본인 기준 | 참고 사례 |
+|----|---------|----------|
+| **성능 (작업별)** | 본인 실측 작업의 결과 품질 | Claude=문서 / Codex=레거시 |
+| **UX 안정성** | 메이저 버전업 시 워크플로가 깨지는가 | [[Antigravity]] 2.0 강제 전환 불만 (반례) |
+| **가격 인상 추세** | 본인 워크플로 비용 영향 | Gemini Flash 3 배 인상 ([[yozm-google-io-2026-gemini-eats-google]]) |
+| **생태계 통합** | 본인 도구 풀과 협업 가능한가 | (관찰 중) |
 
 ## 재평가 트리거
 
@@ -64,12 +87,14 @@ updated: 2026-05-22
 - Gemini 본격 사용 시점 (미검증 → 검증으로 전환)
 - 회사 멀티 에이전트 워크플로 (역할 배치) 가 실측과 어긋나기 시작할 때
 - 새 도구 진입 (예: Anthropic 외 회사의 신규 CLI 에이전트)
+- 본인 도구 (Claude / Codex) 가격 인상 발표
 
 ## Related
 
 - [[ai-market-pulse]] — 시장 관전 living doc (분리 트랙)
 - [[Agentic Engineering]] — 멀티 에이전트 워크플로 사상
 - [[Claude]] · [[Codex]] · [[ChatGPT]] — 본인 도구 풀
-- [[Anthropic]] · [[OpenAI]] — 제조사
+- [[Anthropic]] · [[OpenAI]] · [[Google]] — 제조사
+- [[Gemini]] · [[Antigravity]] — Google 도구 (미검증)
 - [[Vibe Coding]] — 회피 사상 (검증 없는 도구 사용)
 - [[LLM Wiki]] — 외부화 사상 (본 비교 자체가 외부화)

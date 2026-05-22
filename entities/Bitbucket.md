@@ -81,6 +81,57 @@ updated: 2026-05-22
 | **Self-hosted runner** | 사내 서버에 runner 띄움. Pipelines job 이 사내 환경 실행 | **권장** — 클라우드↔온프레미스 직접 연결 불필요 |
 | SSH / VPN / 터널링 | 클라우드 runner 에서 온프레미스 inbound 허용 | 보안·네트워크 부담 큼 |
 
+### 구조 설계
+
+#### 현재 CI/CD 구조
+
+```
+개발자 → Bitbucket (push/PR)
+            ↓ (webhook/polling)
+         Jenkins (사내 빌드 서버)
+            ↓ build → test
+            ├─ 테스트: 동일 서버에서 sh 실행
+            └─ 상용: SSH 로 jar 이동 + 원격 sh 실행
+```
+
+#### 시범 1~2 단계 후 구조 (두 라인 병렬)
+
+```
+개발자 → Bitbucket (push/PR)
+            │
+            ├─ [라인 1: 기존] webhook → Jenkins
+            │                            ↓ build → test → deploy
+            │                            (변경 없음)
+            │
+            └─ [라인 2: 신규] Bitbucket Pipelines (Atlassian Cloud 컨테이너)
+                                ↓ provider: claude
+                              Claude Code 실행 → PR 설명 자동 생성 등
+                                ↓
+                              Bitbucket PR 에 댓글/설명 갱신
+```
+
+**핵심**: 두 라인은 **동일한 시작점** (Bitbucket push/PR 이벤트) 에서 갈라져 **다른 끝점** 으로 감. 본인 사내 인프라 (Jenkins / 상용 서버) 에 들어오는 트래픽 없음. Pipelines 는 Atlassian Cloud 의 컨테이너를 자동으로 띄워 그 안에서 [[Claude]] Code 를 실행.
+
+#### 단계별 구조 변화
+
+| 시범 단계 | Pipelines 가 하는 일 | Jenkins 와의 관계 | self-hosted runner |
+|----------|---------------------|------------------|-------------------|
+| **1 단계 (시범 진입)** PR 설명 자동 생성 | PR 메타데이터 수정만 | **무관** | 불필요 |
+| **2 단계** 불안정 테스트 자동 수정 | 코드 수정 PR 을 새로 만듦 | **간접 연결** — 새 PR 이 Jenkins 빌드 라인 다시 트리거 (기존 흐름 그대로) | 불필요 |
+| **3 단계** 배포 자동화까지 확장 | 사내 서버 접근 필요 | **직접 연결** 필요 | **필요** |
+
+#### 3 단계 진입 시 빌드 결과물 사내 전달 옵션
+
+배포까지 확장하면 "빌드 결과물 (jar) 을 사내 상용 서버로 어떻게 보낼 것인가" 가 핵심 의사결정 포인트. 3 가지 옵션:
+
+| 옵션 | 흐름 | 평가 |
+|------|------|------|
+| **A. Self-hosted runner** | Pipelines job 자체를 사내 runner 에서 실행 → 빌드 결과물이 처음부터 사내 망 안 → 사내 → 사내 SSH (현 Jenkins 흐름과 동일) | **권장** — 인터넷 노출 없음. 단점: runner 운영 추가 |
+| **B. Artifact 저장소 경유** | Pipelines (Cloud) 빌드 → jar 를 Bitbucket Downloads / Nexus / S3 push → 사내 서버 pull → 배포 sh | 저장소 운영 추가, Pipelines ↔ 사내 분리 운영 |
+| **C. Cloud → 사내 SSH 직접** | Pipelines 컨테이너에서 SSH 로 사내 상용 서버 직접 접속 | **비권장** — 사내 서버에 inbound 허용 필요, 보안 부담 큼 |
+
+**3 단계 진입 시 가장 깔끔한 미래 그림 = A 안 (self-hosted runner)**. Jenkins 가 하던 "사내 빌드·배포" 흐름을 그대로 유지하면서 Pipelines 의 Agentic 기능만 끼우는 형태. 단, **이 결정은 시범 1~2 단계 결과가 좋을 때만 진입**. 지금 깊이 결정할 필요 없음.
+
 ### 보류 조건
 다음 중 하나라도 해당하면 도입 보류:
 - 가격 확인 결과 본인 워크플로 비용에 부담 큼

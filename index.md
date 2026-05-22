@@ -51,6 +51,7 @@ vault 의 카테고리별 카탈로그. 1 페이지당 1 줄로 간결하게 유
 - [[OpenAI]] — ChatGPT / GPT 시리즈 제조사
 - [[Anthropic]] — Claude 제조사, AI 안전 중심, AI-driven R&D 의제 주도
 - [[Google]] — 빅테크, Gemini 풀스택 AI 통합 전략 (3 파전 한 축)
+- [[Atlassian]] — 호주 dev tools/협업 SaaS, Jira·Bitbucket·Confluence (본인 회사 기반 인프라)
 - [[Eureka Labs]] — Karpathy 가 2024 설립한 AI 교육 스타트업 (2026-05 보류)
 
 ## Tools
@@ -69,6 +70,7 @@ vault 의 카테고리별 카탈로그. 1 페이지당 1 줄로 간결하게 유
 - [[Gemini]] — Google LLM 시리즈 (Pro/Flash/Omni), 본인 미검증
 - [[Antigravity]] — Google 에이전트 코딩 IDE, 본인 미검증
 - [[IntelliJ]] — JetBrains IDE, 본인 일상 주력. LLM 시대에도 막강한 IDE 레이어
+- [[Bitbucket]] — Atlassian Git 호스팅 + CI/CD. 본인 회사 사용 중 (Pipelines 는 미사용, Claude Code 통합 검토 후보)
 
 ## Sources
 

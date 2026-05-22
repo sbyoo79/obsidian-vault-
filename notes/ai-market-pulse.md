@@ -46,6 +46,7 @@ updated: 2026-05-22
 
 - 2026-05-22 [[yozm-karpathy-anthropic-join]] — Karpathy 의 Anthropic 합류 + AI-driven R&D 의제 공식화. **본 living doc 의 첫 사례**.
 - 2026-05-22 [[yozm-google-io-2026-gemini-eats-google]] — [[Google]] I/O 2026 풀스택 AI 통합 전략 ([[Gemini]] · [[Antigravity]] · 검색 개편 · [[Agent Payments Protocol]] · Android XR). **사이클 가설을 단순 우세 → 3 파전으로 수정 트리거**. 가격 인상 트렌드 (Flash 3 배) 도 함께 확인.
+- 2026-05-22 [[Atlassian]] Bitbucket Agentic Pipelines 가 [[Claude]] Code 외부 제공자 지원 발표 (2026-05-19). **[[Anthropic]] ecosystem expansion 신호** — [[Google]] 의 풀스택 통합 ([[Antigravity]]) 과 대비되는 침투 방식 (외부 dev tools 회사의 자발적 통합). source 페이지는 만들지 않음 (단발 발표 + 본인 Pipelines 미사용), [[Atlassian]] · [[Bitbucket]] entity 신설로 그래프에 박음.
 
 (이후 source ingest 시 한 줄씩 누적)
 

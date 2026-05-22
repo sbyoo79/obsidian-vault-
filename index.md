@@ -23,6 +23,7 @@ vault 의 카테고리별 카탈로그. 1 페이지당 1 줄로 간결하게 유
 - [[전조 지표]] — 최종 KPI 보다 먼저 움직이는 측정 지표. GEO/Product Analytics/Agentic Engineering 공통 메타
 - [[PMF]] — Product-Market Fit, 신규 제품의 핵심 마일스톤
 - [[Aha Moment]] — 사용자가 제품 가치를 처음 체감하는 순간, PMF 활성화 신호 기준
+- [[AI-driven R&D]] — AI 가 AI 모델 개발 자체를 가속화하는 Anthropic 4대 연구 의제 중 하나
 
 ## People
 
@@ -36,6 +37,8 @@ vault 의 카테고리별 카탈로그. 1 페이지당 1 줄로 간결하게 유
 - [[Simon Willison]] — Django 공동창립자, LLM 영역 영향력 블로거
 - [[프로덕트 밸리]] — 요즘IT 기고, Product / Analytics / Vibe Coding 영역
 - [[Igor Grossmann]] — 워털루대 심리학자, Self-Distancing / Solomon's Paradox 연구
+- [[Jack Clark]] — Anthropic 공동창업자, 정책·외부 커뮤니케이션
+- [[트파원]] — 요즘IT 기고자, AI 산업 인재·전략 분석
 
 ## Organizations
 
@@ -44,7 +47,8 @@ vault 의 카테고리별 카탈로그. 1 페이지당 1 줄로 간결하게 유
 - [[Nous Research]] — 오픈소스 LLM·에이전트 연구 조직
 - [[골든래빗]] — 한국 IT/개발 전문 출판사, YozmIT 기고
 - [[OpenAI]] — ChatGPT / GPT 시리즈 제조사
-- [[Anthropic]] — Claude 제조사, AI 안전 중심
+- [[Anthropic]] — Claude 제조사, AI 안전 중심, AI-driven R&D 의제 주도
+- [[Eureka Labs]] — Karpathy 가 2024 설립한 AI 교육 스타트업 (2026-05 보류)
 
 ## Tools
 
@@ -70,6 +74,7 @@ vault 의 카테고리별 카탈로그. 1 페이지당 1 줄로 간결하게 유
 - [[yozm-vibe-coding-real-start]] — Ahmed Hafdi (Yuna 번역), Vibe Coding 한계와 검증 시대 (article, 2026-05-18)
 - [[yozm-backend-roadmap]] — 골든래빗, 백엔드 학습 로드맵 입문 가이드 (article, 2023-06-13)
 - [[yozm-analytics-for-vibe-coders]] — 프로덕트 밸리, 바이브코더용 무료 분석 도구 5 개 가이드 (article, 2026-05-20)
+- [[yozm-karpathy-anthropic-join]] — 트파원, Karpathy 의 Anthropic 합류 분석 (article, 2026-05-21)
 - [[2026-05-14-vault-setup-and-llm-wiki-adoption]] — 본 vault 초기 셋업 + LLM Wiki 채택 논의 (discussion, 2026-05-14)
 
 ## Notes

@@ -51,6 +51,7 @@ updated: 2026-05-22
 
 - [[OpenAI]] 의 대응 — Anthropic 의 AI-driven R&D 의제에 동조 / 반박 / 우회 중 어느 카드?
 - 인력 이동 방향성 — Google DeepMind, Meta FAIR 의 인재 유출/유입
+- **Google 자금력 ↔ Gemini 실측 부재** — 자금력은 시장 관전 신호로 무게 있는 변수지만 본인이 본격 안 써봤음 (도구 측 평가는 [[llm-tool-comparison]] 의 "미검증" 항목). 자금력이 도구 우위로 실제 이어지는지 별도 추적
 - 한국 시장 — [[AI-driven R&D]] 흐름 도착 지연 정도, 본인 이직 후보 회사들의 AI 도구 채택 깊이
 - 모델 사이클 단축 — 기존 6~12 개월이 실제로 줄어드는지 (관찰 지표 필요)
 
@@ -62,4 +63,5 @@ updated: 2026-05-22
 - [[Self-Improving Agent]] — AI-driven R&D 의 사상적 모체
 - [[Agentic Engineering]] — 본인 도구 선택의 근거 워크플로
 - [[Vibe Coding]] — 회피 대상 사상 (도구 선택의 부정적 기준)
+- [[llm-tool-comparison]] — 본인 도구 실측 (분리 트랙)
 - [[yozm-karpathy-anthropic-join]] — 첫 누적 사례

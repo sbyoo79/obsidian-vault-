@@ -93,6 +93,7 @@ vault 의 카테고리별 카탈로그. 1 페이지당 1 줄로 간결하게 유
 - [[product-analytics-for-self-built-systems]] — 본인 광고 플랫폼·사이드 프로젝트에 PostHog/Umami 도입 검토
 - [[ai-market-pulse]] — AI 산업 변동 본인 관전 living doc (Anthropic 우세 사이클 / 인력 이동 신호)
 - [[llm-tool-comparison]] — 본인 LLM 도구 실측 비교 living doc (Claude Code / Codex / ChatGPT / Gemini)
+- [[ai-overwhelm-framing]] — AI 변화 속도 압박 올라올 때 읽는 자기 reorientation 도구 (따라잡기 → 흡수 framing)
 
 ## Meta
 

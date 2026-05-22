@@ -68,6 +68,7 @@ vault 의 카테고리별 카탈로그. 1 페이지당 1 줄로 간결하게 유
 - [[Plausible Analytics]] — 프라이버시 우선 가벼운 web analytics
 - [[Gemini]] — Google LLM 시리즈 (Pro/Flash/Omni), 본인 미검증
 - [[Antigravity]] — Google 에이전트 코딩 IDE, 본인 미검증
+- [[IntelliJ]] — JetBrains IDE, 본인 일상 주력. LLM 시대에도 막강한 IDE 레이어
 
 ## Sources
 

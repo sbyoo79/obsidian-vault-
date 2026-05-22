@@ -85,6 +85,7 @@ vault 의 카테고리별 카탈로그. 1 페이지당 1 줄로 간결하게 유
 - [[self-profile]] — 본인 자기 평가·포지셔닝 (tech stack 5단계, 5대 강점, 약점, 차별점, 적합/회피 회사 유형)
 - [[backend-roadmap-for-juniors]] — 21년차 시니어가 후배에게 추천하는 백엔드 학습 가이드 + 보강 5영역
 - [[product-analytics-for-self-built-systems]] — 본인 광고 플랫폼·사이드 프로젝트에 PostHog/Umami 도입 검토
+- [[ai-market-pulse]] — AI 산업 변동 본인 관전 living doc (Anthropic 우세 사이클 / 인력 이동 신호)
 
 ## Meta
 

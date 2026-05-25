@@ -1,7 +1,7 @@
 ---
 type: note
-status: targeting
-tags: [job-match, private, travelwallet, fintech, payment, team-lead, korea, series-c, visa]
+status: applied
+tags: [job-match, private, travelwallet, fintech, payment, team-lead, korea, series-c, visa, applied]
 company: 트래블월렛
 position: Back-end engineer Lead (챕터 리더 + 스쿼드 피처 개발)
 url: https://career.rememberapp.co.kr/job/posting/306089
@@ -13,6 +13,7 @@ salary_range: 협의 + 복지카드 연 400만 + 리멤버 합격 보상 50만
 match_score: 9.2
 recommendation: 지원 강력 권장 — 결제 도메인 직접 매칭 + 팀 리딩 50:50 정확 fit + 통근 편안 (7호선 한방), 본 후보 중 매칭 최고치
 deadline: 채용 시 마감 (상시)
+applied_at: 2026-05-26
 created: 2026-05-26
 updated: 2026-05-26
 ---
@@ -146,10 +147,9 @@ updated: 2026-05-26
 
 - [x] **통근 점검 완료 (2026-05-26)** — 부평 → 논현역 = 7 호선 한방, 편안한 범위. 시차 출퇴근 추가 plus
 - [x] **한글 customized resume 작성 완료 (2026-05-26)** — `~/work-space/이력서_유승보_travelwallet_2026-05.md` (vault 외부)
-- [ ] 본인 검토 + 미세 조정
+- [x] **지원서 제출 완료 — 2026-05-26**
 - [ ] LangChain 기본 학습 (서류 통과 시, 1~2 시간)
 - [ ] Kafka 워밍업 (서류 통과 시)
-- [ ] 지원서 제출 (리멤버 앱 통해)
 - [ ] 인터뷰 절차 사전 확인 — 서류 → 직무 (1h) → 임원 (1h) → 레퍼런스 → 최종. 필요 시 코딩테스트
 - [ ] 회신 모니터링 — 1~2 주
 

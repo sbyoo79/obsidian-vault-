@@ -1,7 +1,7 @@
 ---
 type: note
-status: targeting
-tags: [job-match, private, nuwa, ota, travel, ai, team-lead, korea, profitable]
+status: applied
+tags: [job-match, private, nuwa, ota, travel, ai, team-lead, korea, profitable, applied]
 company: 누아 (NUWA)
 position: 백엔드 개발자 팀장 (리드급)
 url: https://career.rememberapp.co.kr/job/posting/307167
@@ -13,6 +13,7 @@ salary_range: 협의 (미공시), 합격·입사 보상 50 만
 match_score: 8.8
 recommendation: 지원 강력 권장 — 한국 회사 + 흑자 + 커머스 인접 + 팀장 트랙 + AI 적극 활용
 deadline: 2026-06-12
+applied_at: 2026-05-26
 created: 2026-05-26
 updated: 2026-05-26
 ---
@@ -155,10 +156,8 @@ updated: 2026-05-26
 - [x] **본인 Docker/K8s 사용 경험 자기 평가** — "개념 이해 O, 운영 X, 회사 필요 시 학습 OK" (2026-05-26 결정)
 - [x] **K8s 학습 의지 결정** — 조건부 학습 의지 명확화. "회사 필요 시 공부" (2026-05-26)
 - [x] **한글 customized resume 작성 완료 (2026-05-26)** — `~/work-space/이력서_유승보_nuwa_2026-05.md` (vault 외부). Bucketplace 패턴 베이스 + OTA/커머스 + 팀 리딩 부각 + Docker/K8s 정직 표기 + 면접 핵심 문장 3 개 포함.
-- [ ] 본인 검토 + 미세 조정
-- [ ] 지원서 제출 (리멤버 앱 통해)
+- [x] **지원서 제출 완료 — 2026-05-26**
 - [ ] 인터뷰 절차 사전 확인 (1~2 차 면접 형식)
-- [ ] **마감 2026-06-12 (약 2 주)** — 빠른 진행 가능
 - [ ] 회신 모니터링 — 1~2 주
 
 ## Fieldguide 탈락 학습 적용

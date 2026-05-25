@@ -1,7 +1,7 @@
 ---
 type: note
-status: targeting
-tags: [job-match, private, banksalad, fintech, mydata, healthcare, team-lead, korea, series-d, ai-tools]
+status: applied
+tags: [job-match, private, banksalad, fintech, mydata, healthcare, team-lead, korea, series-d, ai-tools, applied]
 company: 뱅크샐러드
 position: 테크 리드 매니저 (Tech Lead Manager)
 url: https://career.rememberapp.co.kr/job/posting/271036
@@ -13,6 +13,7 @@ salary_range: 협의 + 리멤버 합격 보상 50 만
 match_score: 8.5
 recommendation: 지원 권장 — AI 도구 활용·전파 우대가 본인 차별 강점과 가장 강한 직접 매칭
 deadline: 채용 시 마감 (상시)
+applied_at: 2026-05-26
 created: 2026-05-26
 updated: 2026-05-26
 ---
@@ -147,11 +148,10 @@ updated: 2026-05-26
 ## Action Items
 
 - [x] **한글 customized resume 작성 완료 (2026-05-26)** — `~/work-space/이력서_유승보_banksalad_2026-05.md` (vault 외부). 누아 한글본 패턴 베이스 + 뱅크샐러드 향 재배치 (팀 리딩 + AI 전파 + DB·금융 인접 강조 + Kafka·Go·K8s 정직 표기 + 면접 핵심 문장 3 개).
-- [ ] 본인 검토 + 미세 조정
-- [ ] **회사 Go 도입률 확인** — Glassdoor / Levels.fyi / 채용 페이지 추가 확인
+- [x] **지원서 제출 완료 — 2026-05-26**
+- [ ] **회사 Go 도입률 확인** — Glassdoor / Levels.fyi / 채용 페이지 추가 확인 (서류 통과 시)
 - [ ] **마이데이터 / 금융 도메인 기본 학습** — 마이데이터 사업의 데이터 흐름, 금융 규제 컨텍스트 (1~2 시간, 서류 통과 시)
 - [ ] **Kafka 워밍업** — 공식 docs + Spring Kafka 튜토리얼 (서류 통과 시)
-- [ ] 지원서 제출 (리멤버 앱 통해)
 - [ ] 인터뷰 절차 사전 확인 — 상시 채용이라 빠른 진행 가능성
 - [ ] 회신 모니터링 — 1~2 주
 

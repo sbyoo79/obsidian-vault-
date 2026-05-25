@@ -59,7 +59,7 @@ updated: 2026-05-18
 
 | 회사 | 단계 | 일자 | 메모 |
 |------|------|------|------|
-| **Fieldguide** | **서류 제출** | **2026-05-19** | Software Engineer (Korea), 매칭 9.0/10, 본격 검토 1호. 여의도 오피스, KST 06:00 시작 (remote 허용). 영문 1p/2p + cover letter 제출. 상세: [[2026-05-18-fieldguide-software-engineer-korea]] |
+| **Fieldguide** | **서류 탈락** | 제출 2026-05-19 / 탈락 2026-05-26 | Software Engineer (Korea), 매칭 9.0/10, 본격 검토 1호. 약 1주 만에 탈락, 인터뷰 미진입. 추정 원인: 한국 팀 신설 초기 채용 경쟁 강도 / 기술 스택 격차 (Java↔TS) / 영문 자료 첫 작성 미세 조정 / 매칭 도구가 글로벌 채용 변수 반영 부족. 영문 자료 자산은 다음 글로벌 지원에 재활용. 상세: [[2026-05-18-fieldguide-software-engineer-korea]] |
 | **Bucketplace (오늘의집)** | **서류 탈락** | 제출 2026-05-19 / 탈락 2026-05-21 | Senior Backend Engineer, Commerce. 매칭 8.6/10, 인터뷰 미진입. 자소서 없는 양식 + AI capability assessment 는 인터뷰 단계라 차별 강점 어필 부족 추정. 상세: [[2026-05-19-bucketplace-senior-backend-engineer-commerce]] |
 | **Bear Robotics** | **백업 검토 (대기)** | 2026-05-21 | Senior Software Engineer. 매칭 7.2/10. LG 계열사 + 글로벌 + 팀 리딩 명시는 강점, 도메인 (로보틱스) + 영어 필수 + Python/Django 가 학습 필요. Fieldguide 결과 후 지원 여부 결정. 상세: [[2026-05-21-bear-robotics-senior-software-engineer]] |
 | **쿠팡페이 (쿠팡(주))** | **서류 제출** | **2026-05-21** | Staff Back-end Engineer (Fintech Platform). 매칭 **8.7/10**, Fieldguide 동급. NYSE 상장 + 연봉 1.5~2.6억 명시 + 경력 10~20년차 정확 fit + 본인 강점 (Java + Commerce + Zero downtime 마이그레이션) 직접 매칭. 한글 customized resume 제출. 서류 통과 시 코테 1~2주 워밍업 + K8s 1일 학습. 상세: [[2026-05-21-coupang-pay-staff-backend-engineer-fintech-platform]] |

@@ -1,7 +1,7 @@
 ---
 type: note
-status: applied
-tags: [job-match, private, fieldguide, b2b-saas, audit, ai, global, remote]
+status: rejected
+tags: [job-match, private, fieldguide, b2b-saas, audit, ai, global, remote, rejected]
 company: Fieldguide
 position: Software Engineer - All Levels (Korea)
 url: https://www.linkedin.com/jobs/view/4392465975/
@@ -13,8 +13,9 @@ salary_range: ₩111,754,979 ~ ₩208,362,450
 match_score: 9.0
 recommendation: 지원 강력 권장 (본격 검토 1호)
 applied_at: 2026-05-19
+rejected_at: 2026-05-26
 created: 2026-05-18
-updated: 2026-05-19
+updated: 2026-05-26
 ---
 
 # Fieldguide — Software Engineer (Korea) 매칭 분석
@@ -105,9 +106,26 @@ updated: 2026-05-19
 - [x] Customized resume 작성 (~/work-space/이력서_유승보_fieldguide_2026-05.md)
 - [x] 영문 이력서 1p / 2p + cover letter 작성 (~/work-space/resume_seungbo-yoo_fieldguide_2026-05_{1page,2page}.md, cover-letter_seungbo-yoo_fieldguide_2026-05.md) — 2026-05-19
 - [x] **지원서 제출 완료 — 2026-05-19**
-- [ ] LinkedIn 프로필 영문 정비 (이력서와 톤·표기 일치) — 리쿠르터가 LinkedIn 으로 확인할 가능성 높음
-- [ ] Hasura 1~2 시간 워밍업 (공식 docs + 튜토리얼)
-- [ ] 인터뷰 절차 사전 확인 (Glassdoor / Levels.fyi 에서 Fieldguide 검색)
-- [ ] 영어 자기 소개 1 분 버전 준비 (cover letter 의 long-arc story 골격 활용)
-- [ ] **KST 06:00 시작 호환성 본인 점검** — 헬스 루틴 / 생활 패턴과 충돌 여부 (인터뷰 진행 전 결론)
-- [ ] 회신 모니터링 — 통상 1~2 주, 미회신 시 LinkedIn 으로 리쿠르터 follow-up 검토
+- [x] **서류 탈락 통보 — 2026-05-26** (제출 → 탈락 약 1 주)
+
+## 결과 회고 (2026-05-26 탈락)
+
+- 매칭 9.0 의 본격 검토 1 호 후보였으나 서류 단계에서 탈락. 인터뷰 미진입.
+- 제출 ~ 탈락 약 1 주 — Bucketplace (제출 → 탈락 2 일) 보다는 길었지만, 본인 강점 어필 단계 (인터뷰) 까지는 못 감
+- 후속 미진행: LinkedIn 영문 정비 / Hasura 워밍업 / 영어 자기 소개 / KST 06:00 호환성 점검 → 본 케이스는 사용 안 함, 그러나 자료는 **다음 글로벌·외국계 지원 시 재활용 가능**
+
+### 추정 원인 (가설)
+- (a) 한국 팀 신설 초기 채용 → 채용 인원 적음 + 경쟁 강도 ↑
+- (b) 본인 기술 스택 (Java/Spring) 과 공고 주력 (TypeScript/React/Node.js/GraphQL/Hasura) 격차가 서류 단계에서 부담으로 작용 가능성
+- (c) 영문 자료 톤·구조가 미국 본사 컨벤션에 100% 맞지 않았을 가능성 (첫 영문 지원)
+- (d) 매칭 도구가 한국 회사 패턴 위주로 정교화되어 글로벌 채용 특성 (서류 단계 컷이 더 빡빡함) 을 충분히 반영 못 했을 가능성
+
+### 시스템 정교화 측 시사점 ([[feedback_resume_iterative_system]] 사상 적용)
+- 9.0 매칭도 서류 컷 가능 = **매칭 점수와 서류 통과 확률은 다른 변수**
+- 글로벌 채용은 한국 회사 패턴과 다른 룰 — 매칭 도구의 다음 정교화 후보 영역 (글로벌 vs 한국 변수 분리)
+- 영문 자료 (1p / 2p / cover letter) 는 첫 작성이라 다음 글로벌 지원 시 패턴 재사용 + 미세 조정. 매번 처음부터 안 만들어도 됨 = 도구 자산화 성공
+- **합격 압박 X, 시스템 정교화 O** — 본 결과로 self-profile 또는 매칭 도구에 추가할 변수가 있는지 점검 후보
+
+### 다음 액션
+- 이 결과를 [[self-profile]] 또는 매칭 도구에 반영할 변수가 있는지 점검 (글로벌 채용 변수 / 영문 자료 검증 단계 / 한국 팀 신설 초기 채용의 경쟁 강도 등)
+- 쿠팡페이 (2026-05-21 제출) 회신 모니터링 — 한국 회사라 다른 패턴 예상

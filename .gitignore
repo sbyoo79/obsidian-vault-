@@ -8,8 +8,8 @@
 # Obsidian trash
 .trash/
 
-# 민감 사적 메모 (연봉/평가/진행 중 지원 등)
-notes/private/
+# 민감 사적 메모는 private repo 자체가 보호. 환경 이동을 위해 동기화 활성화 (2026-05-26)
+# notes/private/
 
 # OS
 .DS_Store

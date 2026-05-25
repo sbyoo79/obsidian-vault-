@@ -63,7 +63,7 @@ updated: 2026-05-18
 | **Bucketplace (오늘의집)** | **서류 탈락** | 제출 2026-05-19 / 탈락 2026-05-21 | Senior Backend Engineer, Commerce. 매칭 8.6/10, 인터뷰 미진입. 자소서 없는 양식 + AI capability assessment 는 인터뷰 단계라 차별 강점 어필 부족 추정. 상세: [[2026-05-19-bucketplace-senior-backend-engineer-commerce]] |
 | **Bear Robotics** | **백업 검토 (대기)** | 2026-05-21 | Senior Software Engineer. 매칭 7.2/10. LG 계열사 + 글로벌 + 팀 리딩 명시는 강점, 도메인 (로보틱스) + 영어 필수 + Python/Django 가 학습 필요. Fieldguide 결과 후 지원 여부 결정. 상세: [[2026-05-21-bear-robotics-senior-software-engineer]] |
 | **쿠팡페이 (쿠팡(주))** | **서류 제출** | **2026-05-21** | Staff Back-end Engineer (Fintech Platform). 매칭 **8.7/10**, Fieldguide 동급. NYSE 상장 + 연봉 1.5~2.6억 명시 + 경력 10~20년차 정확 fit + 본인 강점 (Java + Commerce + Zero downtime 마이그레이션) 직접 매칭. 한글 customized resume 제출. 서류 통과 시 코테 1~2주 워밍업 + K8s 1일 학습. 상세: [[2026-05-21-coupang-pay-staff-backend-engineer-fintech-platform]] |
-| **누아 (NUWA)** | **검토 / 자료 준비** | 2026-05-26 | 백엔드 개발자 팀장 (리드급). AI 기반 OTA / 항공권 유통. **매칭 8.8/10, 강력 후보**. 8년 연속 흑자 + 130억 투자 + AI 그랜드 챌린지 4회 입상 + 팀장 트랙 명시 + 한국 회사 (글로벌 채용 컷 회피, Fieldguide 탈락 학습 반영) + Java/Spring 정확 매칭 + 커머스 인접 도메인 (티몬 경험 활용). 리스크: **Docker/K8s 필수 요건** (본인 의도적 회피 영역, 솔직한 자기 평가 필요). 마감 2026-06-12. 상세: [[2026-05-26-nuwa-backend-team-lead]] |
+| **누아 (NUWA)** | **자료 준비 완료, 제출 대기** | 2026-05-26 | 백엔드 개발자 팀장 (리드급). AI 기반 OTA / 항공권 유통. **매칭 8.8/10, 강력 후보**. 8년 연속 흑자 + 130억 투자 + AI 그랜드 챌린지 4회 입상 + 팀장 트랙 명시 + 한국 회사 (글로벌 채용 컷 회피, Fieldguide 탈락 학습 반영) + Java/Spring 정확 매칭 + 커머스 인접 도메인 (티몬 경험 활용). 리스크: Docker/K8s 필수 (개념 이해 O, 운영 X, 학습 의지 충분 — 정직 표기). 한글 customized resume 작성 완료 (`~/work-space/이력서_유승보_nuwa_2026-05.md`). 마감 2026-06-12. 상세: [[2026-05-26-nuwa-backend-team-lead]] |
 
 ---
 

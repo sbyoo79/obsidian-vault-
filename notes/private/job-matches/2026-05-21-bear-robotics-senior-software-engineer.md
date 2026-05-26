@@ -1,7 +1,7 @@
 ---
 type: note
-status: backup-pending
-tags: [job-match, private, bear-robotics, lg-affiliate, robotics, global, onsite, backup]
+status: faded-out
+tags: [job-match, private, bear-robotics, lg-affiliate, robotics, global, onsite, backup, faded-out]
 company: Bear Robotics
 position: Senior Software Engineer
 url: https://www.linkedin.com/jobs/view/4278556431/
@@ -10,12 +10,29 @@ employment: 정규직
 seniority: Mid-Senior (10년+ 소프트웨어)
 salary_range: 미공개 (LG 계열사 + 글로벌 시니어 추정 1.1억+)
 match_score: 7.2
-recommendation: 백업 후보 (Fieldguide 결과 확정 후 지원 여부 결정)
+recommendation: ~~백업 후보~~ → **Fade out (2026-05-26 본인 결정)**
+faded_out_at: 2026-05-26
 created: 2026-05-21
-updated: 2026-05-21
+updated: 2026-05-26
 ---
 
-# Bear Robotics — Senior Software Engineer 매칭 분석
+## Fade out 결정 (2026-05-26)
+
+**본인 발화**: "Bear Robotics 는 그냥 fade out 하자. 뭔가 크게 안 끌린다."
+
+**이유**:
+- 도메인 (로보틱스) 본인 강점 (commerce / 핀테크 / 결제) 과 거리. 매칭 7.2 가 이미 반영
+- 영어 필수 환경 — Fieldguide 탈락 학습 (한국 회사 우선) 과 결이 맞지 않음
+- Python / Django 학습 필요 — Java/Spring 강점과 거리
+- 적극 모드 전환 (2026-05-26 급여 이슈 발생) 후에도 본 후보는 "명확한 이득 < 부담" 그대로
+
+**적용 사상**: [[infra-tradeoff-framing]] 의 의사결정 규칙 ("명확한 이득 < trade-off → 패스") 의 이직 매칭 영역 적용. 적극 모드 = 무차별 지원 X, 매칭 직관·기준 유지.
+
+**의미**: 적극 모드 전환 직후에도 본인 매칭 도구·직관이 작동한 사례. **압박 모드에서 시스템 디시플린 유지** 의 증거.
+
+---
+
+# Bear Robotics — Senior Software Engineer 매칭 분석 (원본 보존)
 
 [[self-profile]] 2026-05-19 갱신 기준 적용. **백업 후보 — Fieldguide 결과 후 결정**.
 

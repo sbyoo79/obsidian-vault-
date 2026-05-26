@@ -1,7 +1,7 @@
 ---
 type: note
-status: targeting
-tags: [job-match, private, hunet, edtech, ldp, b2b-saas, team-lead, korea, ai-tools]
+status: applied
+tags: [job-match, private, hunet, edtech, ldp, b2b-saas, team-lead, korea, ai-tools, applied, referral]
 company: 휴넷
 position: 시스템 백엔드 개발자 (시니어 / 팀리더)
 url: https://hunet.ninehire.site/job_posting/SRaraAJH
@@ -13,6 +13,7 @@ salary_range: 미공개 (매년 매출 100 억+ 증가, 강소기업)
 match_score: 8.8
 recommendation: **본격 진행 권장 — 추천 경유 + 통근 최강 + 팀리더 + 주 4 일 근무 + 안정성 + AI 우대**. EdTech 도메인 거리만 약점
 referral: 본인 지인 추천 경유 (2026-05-26 인지)
+applied_at: 2026-05-26
 deadline: 채용 시 마감 (상시)
 created: 2026-05-26
 updated: 2026-05-26
@@ -148,8 +149,7 @@ updated: 2026-05-26
 - [x] **추천 경유 인지 (2026-05-26)** — 본인 지인 추천. 서류 컷 회피 + 회사 내부 정보 접근 + 인터뷰 빠른 진입 가능
 - [ ] **추천인 컨텍스트 수집** — 추천인에게 회사 분위기 / 팀장 트랙 가능성 / 연봉 수준 / 일하는 방식 사전 확인
 - [x] **한글 customized resume 작성 완료 (2026-05-26)** — `~/work-space/이력서_유승보_hunet_2026-05.md` (vault 외부)
-- [ ] 본인 검토 + 미세 조정
-- [ ] 지원서 제출 (추천 채널 따라)
+- [x] **지원서 제출 완료 — 2026-05-26 (추천 채널 경유)**
 - [ ] 인터뷰 절차 사전 확인 (3 차 인터뷰 + 처우 협의)
 - [ ] 회신 모니터링 — 추천 경유라 1 주 안 빠른 응답 가능성
 

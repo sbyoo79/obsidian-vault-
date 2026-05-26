@@ -33,9 +33,11 @@ updated: 2026-05-18
 
 **다음 액션 우선순위**:
 1. 3 곳 (누아 / 뱅크샐러드 / 트래블월렛) 회신 모니터링 — 1~2 주 안 회신 우선
-2. 추가 후보 발굴 적극 — 한국 회사 + Java/Spring + 팀장 트랙 + 안정 자금 단계 우선
-3. 쿠팡페이 (2026-05-21 제출) 회신 follow-up — 1 주 이상 무회신 시 LinkedIn 으로 리쿠르터 follow-up 검토
-4. ~~Bear Robotics 백업 후보 재평가~~ → **Fade out (2026-05-26 본인 결정)**. 적극 모드여도 매칭 디시플린 유지
+2. **추가 후보 발굴 적극** — 한국 회사 + Java/Spring + 팀장 트랙 + 안정 자금 단계 우선. **쿠팡페이 + Bear Robotics 정리로 활성 후보 3 곳만 남음**, 추가 발굴 우선순위 ↑
+3. ~~쿠팡페이 follow-up~~ → **종료 (2026-05-26 무응답 5 일 후 본인 판단)**
+4. ~~Bear Robotics 백업 재평가~~ → **Fade out (2026-05-26 본인 결정)**
+
+**활성 진행 (3 곳 / 누아·뱅크샐러드·트래블월렛 모두 2026-05-26 제출)**: 1~2 주 회신 우선 모니터링.
 
 ---
 
@@ -89,7 +91,7 @@ updated: 2026-05-18
 | **Fieldguide** | **서류 탈락** | 제출 2026-05-19 / 탈락 2026-05-26 | Software Engineer (Korea), 매칭 9.0/10, 본격 검토 1호. 약 1주 만에 탈락, 인터뷰 미진입. 추정 원인: 한국 팀 신설 초기 채용 경쟁 강도 / 기술 스택 격차 (Java↔TS) / 영문 자료 첫 작성 미세 조정 / 매칭 도구가 글로벌 채용 변수 반영 부족. 영문 자료 자산은 다음 글로벌 지원에 재활용. 상세: [[2026-05-18-fieldguide-software-engineer-korea]] |
 | **Bucketplace (오늘의집)** | **서류 탈락** | 제출 2026-05-19 / 탈락 2026-05-21 | Senior Backend Engineer, Commerce. 매칭 8.6/10, 인터뷰 미진입. 자소서 없는 양식 + AI capability assessment 는 인터뷰 단계라 차별 강점 어필 부족 추정. 상세: [[2026-05-19-bucketplace-senior-backend-engineer-commerce]] |
 | **Bear Robotics** | **Fade out (본인 결정)** | ~~2026-05-21 백업~~ → 2026-05-26 fade out | Senior Software Engineer. 매칭 7.2/10. 본인 발화: "크게 안 끌린다". 도메인 fit 약함 + 영어 부담 + Python/Django 학습 부담. **적극 모드 전환에도 매칭 디시플린 유지 사례**. 상세: [[2026-05-21-bear-robotics-senior-software-engineer]] |
-| **쿠팡페이 (쿠팡(주))** | **서류 제출** | **2026-05-21** | Staff Back-end Engineer (Fintech Platform). 매칭 **8.7/10**, Fieldguide 동급. NYSE 상장 + 연봉 1.5~2.6억 명시 + 경력 10~20년차 정확 fit + 본인 강점 (Java + Commerce + Zero downtime 마이그레이션) 직접 매칭. 한글 customized resume 제출. 서류 통과 시 코테 1~2주 워밍업 + K8s 1일 학습. 상세: [[2026-05-21-coupang-pay-staff-backend-engineer-fintech-platform]] |
+| **쿠팡페이 (쿠팡(주))** | **종료 (무응답)** | 제출 2026-05-21 / 종료 판단 2026-05-26 | Staff Back-end Engineer (Fintech Platform). 매칭 8.7/10. 약 5일 무응답 후 본인 종료 판단 (명시 통보 없음). 추정 원인: 대형사 + Staff 급 서류 경쟁 강도 ↑ / 핀테크 직접 경력 우대 단계에서 컷. **Fieldguide (9.0) + 쿠팡페이 (8.7) 모두 컷 = 매칭 9 점 이상도 서류 통과 보장 X 추가 검증**. 매칭 도구 정교화 후보: 대형사 서류 컷 변수. 상세: [[2026-05-21-coupang-pay-staff-backend-engineer-fintech-platform]] |
 | **누아 (NUWA)** | **서류 제출** | 2026-05-26 | 백엔드 개발자 팀장 (리드급). AI 기반 OTA / 항공권 유통. **매칭 8.8/10**. 8년 연속 흑자 + 130억 투자 + AI 그랜드 챌린지 4회 입상 + 팀장 트랙 명시 + 한국 회사 + Java/Spring 정확 매칭 + 커머스 인접 도메인. 리스크: Docker/K8s 필수 (개념 이해 O, 운영 X, 학습 의지 충분 — 정직 표기). 마감 2026-06-12. 상세: [[2026-05-26-nuwa-backend-team-lead]] |
 | **뱅크샐러드** | **서류 제출** | 2026-05-26 | 테크 리드 매니저. 마이데이터 / 금융 / 헬스케어. **매칭 8.5/10**. Series D + 1,988억 누적 + 팀 리더 정확 fit + **AI 도구 활용·전파 우대 본 후보 중 최강 매칭** + 한국 회사. 리스크: 금융 도메인 직접 X / Kafka 미사용 / Go 선택지로 회피. 마포구. 상시 채용. 상세: [[2026-05-26-banksalad-tech-lead-manager]] |
 | **트래블월렛** | **서류 제출** | 2026-05-26 | Back-end engineer Lead (챕터 리더 50:50). 핀테크 / 글로벌 결제 (VISA Principal License 아시아 최초). **매칭 9.2/10, 본 후보 중 최고 매칭**. Series C + 누적 469억 + 2024 Q4 흑자 전환 + **결제 도메인 직접 매칭 (MAXVISOR KICC/스마트로/메타시티/키움 가상계좌)** + 챕터 리더 50:50 정확 fit + 한국 회사 + 통근 편안 (부평 → 논현역 7호선 한방). 리스크: Kafka / EKS / RoR / LangChain 미경험 (모두 우대 필수 X). 논현역 도보 1분. 상시 채용. 상세: [[2026-05-26-travelwallet-backend-engineer-lead]] |

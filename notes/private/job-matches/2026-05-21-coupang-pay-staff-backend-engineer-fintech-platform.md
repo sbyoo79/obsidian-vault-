@@ -1,7 +1,7 @@
 ---
 type: note
-status: applied
-tags: [job-match, private, coupang, coupang-pay, fintech, commerce, staff-level, nyse-listed, java]
+status: closed-no-response
+tags: [job-match, private, coupang, coupang-pay, fintech, commerce, staff-level, nyse-listed, java, closed]
 company: 쿠팡(주) / 쿠팡페이
 position: Staff Back-end Engineer (Fintech Platform)
 url: https://career.rememberapp.co.kr/job/posting/308250
@@ -10,13 +10,35 @@ employment: 정규직
 seniority: Staff (10~20년차)
 salary_range: 1.5억 ~ 2.6억 (명시)
 match_score: 8.7
-recommendation: 적극 지원 후보 (Fieldguide 와 병행, 본인 강점 직접 매칭)
+recommendation: ~~적극 지원 후보~~ → **종료 (2026-05-26 본인 판단, 무응답 종료)**
 applied_at: 2026-05-21
+closed_at: 2026-05-26
 created: 2026-05-21
-updated: 2026-05-21
+updated: 2026-05-26
 ---
 
-# 쿠팡페이 — Staff Back-end Engineer (Fintech Platform) 매칭 분석
+## 종료 결정 (2026-05-26, 무응답 종료)
+
+**본인 발화**: "쿠팡페이는 연락 없이 종료된 듯하다. 이쪽도 닫자."
+
+**경과**: 제출 2026-05-21 → 종료 판단 2026-05-26 (약 5 일). 명시적 탈락 통보 없음, 본인이 다른 신호로 종료 인지.
+
+**추정 원인 (가설)**:
+- (a) Staff 급 + 대형 NYSE 상장사 → 서류 단계 경쟁 강도 ↑ + 더 빡빡한 컷
+- (b) 코딩테스트 단계 필수 (Staff 급 표준) → 서류 단계에서 코테 통과 가능성도 평가 가능
+- (c) 매칭 8.7 도 본인 도메인 (commerce → fintech) 차이가 인터뷰 단계에서 어필 가능했으나 서류 단계는 핀테크 직접 경력 우대
+- (d) 연봉 1.5~2.6 억 명시 = 회사 측 시니어 풀에서 본격 선별
+
+**시스템 정교화 시사점 ([[feedback_resume_iterative_system]] 사상 적용)**:
+- **Fieldguide (9.0) + 쿠팡페이 (8.7) 모두 컷** = 매칭 9 점 이상도 서류 통과 보장 X (이미 Fieldguide 회고에서 학습한 변수의 추가 검증)
+- **대형사 + Staff/Senior 급 = 서류 단계 자체가 별도 변수** — 매칭 도구의 다음 정교화 후보 (회사 규모·직급별 서류 통과 확률 변수)
+- 무응답 종료 패턴 — 한국 대형사 일부에서 명시 통보 안 하는 경우 있음. 본인이 다음 follow-up 시점 판단 기준 누적
+
+**다음 액션**: status 닫음. 회신 모니터링 대상에서 제거. 매칭 도구에 "대형사 서류 컷 변수" 추가 검토 후보.
+
+---
+
+# 쿠팡페이 — Staff Back-end Engineer (Fintech Platform) 매칭 분석 (원본 보존)
 
 [[self-profile]] 2026-05-19 갱신 기준 적용. **본인 강점 (Java + Commerce + 마이그레이션 + DB) 이 4 후보 중 가장 직접 매칭**.
 

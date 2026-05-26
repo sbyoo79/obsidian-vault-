@@ -35,7 +35,7 @@ updated: 2026-05-18
 1. 3 곳 (누아 / 뱅크샐러드 / 트래블월렛) 회신 모니터링 — 1~2 주 안 회신 우선
 2. 추가 후보 발굴 적극 — 한국 회사 + Java/Spring + 팀장 트랙 + 안정 자금 단계 우선
 3. 쿠팡페이 (2026-05-21 제출) 회신 follow-up — 1 주 이상 무회신 시 LinkedIn 으로 리쿠르터 follow-up 검토
-4. Bear Robotics 백업 후보 재평가 — 적극 모드 전환으로 본격 검토 후보 등급 상승 가능
+4. ~~Bear Robotics 백업 후보 재평가~~ → **Fade out (2026-05-26 본인 결정)**. 적극 모드여도 매칭 디시플린 유지
 
 ---
 
@@ -88,7 +88,7 @@ updated: 2026-05-18
 |------|------|------|------|
 | **Fieldguide** | **서류 탈락** | 제출 2026-05-19 / 탈락 2026-05-26 | Software Engineer (Korea), 매칭 9.0/10, 본격 검토 1호. 약 1주 만에 탈락, 인터뷰 미진입. 추정 원인: 한국 팀 신설 초기 채용 경쟁 강도 / 기술 스택 격차 (Java↔TS) / 영문 자료 첫 작성 미세 조정 / 매칭 도구가 글로벌 채용 변수 반영 부족. 영문 자료 자산은 다음 글로벌 지원에 재활용. 상세: [[2026-05-18-fieldguide-software-engineer-korea]] |
 | **Bucketplace (오늘의집)** | **서류 탈락** | 제출 2026-05-19 / 탈락 2026-05-21 | Senior Backend Engineer, Commerce. 매칭 8.6/10, 인터뷰 미진입. 자소서 없는 양식 + AI capability assessment 는 인터뷰 단계라 차별 강점 어필 부족 추정. 상세: [[2026-05-19-bucketplace-senior-backend-engineer-commerce]] |
-| **Bear Robotics** | **백업 검토 (대기)** | 2026-05-21 | Senior Software Engineer. 매칭 7.2/10. LG 계열사 + 글로벌 + 팀 리딩 명시는 강점, 도메인 (로보틱스) + 영어 필수 + Python/Django 가 학습 필요. Fieldguide 결과 후 지원 여부 결정. 상세: [[2026-05-21-bear-robotics-senior-software-engineer]] |
+| **Bear Robotics** | **Fade out (본인 결정)** | ~~2026-05-21 백업~~ → 2026-05-26 fade out | Senior Software Engineer. 매칭 7.2/10. 본인 발화: "크게 안 끌린다". 도메인 fit 약함 + 영어 부담 + Python/Django 학습 부담. **적극 모드 전환에도 매칭 디시플린 유지 사례**. 상세: [[2026-05-21-bear-robotics-senior-software-engineer]] |
 | **쿠팡페이 (쿠팡(주))** | **서류 제출** | **2026-05-21** | Staff Back-end Engineer (Fintech Platform). 매칭 **8.7/10**, Fieldguide 동급. NYSE 상장 + 연봉 1.5~2.6억 명시 + 경력 10~20년차 정확 fit + 본인 강점 (Java + Commerce + Zero downtime 마이그레이션) 직접 매칭. 한글 customized resume 제출. 서류 통과 시 코테 1~2주 워밍업 + K8s 1일 학습. 상세: [[2026-05-21-coupang-pay-staff-backend-engineer-fintech-platform]] |
 | **누아 (NUWA)** | **서류 제출** | 2026-05-26 | 백엔드 개발자 팀장 (리드급). AI 기반 OTA / 항공권 유통. **매칭 8.8/10**. 8년 연속 흑자 + 130억 투자 + AI 그랜드 챌린지 4회 입상 + 팀장 트랙 명시 + 한국 회사 + Java/Spring 정확 매칭 + 커머스 인접 도메인. 리스크: Docker/K8s 필수 (개념 이해 O, 운영 X, 학습 의지 충분 — 정직 표기). 마감 2026-06-12. 상세: [[2026-05-26-nuwa-backend-team-lead]] |
 | **뱅크샐러드** | **서류 제출** | 2026-05-26 | 테크 리드 매니저. 마이데이터 / 금융 / 헬스케어. **매칭 8.5/10**. Series D + 1,988억 누적 + 팀 리더 정확 fit + **AI 도구 활용·전파 우대 본 후보 중 최강 매칭** + 한국 회사. 리스크: 금융 도메인 직접 X / Kafka 미사용 / Go 선택지로 회피. 마포구. 상시 채용. 상세: [[2026-05-26-banksalad-tech-lead-manager]] |

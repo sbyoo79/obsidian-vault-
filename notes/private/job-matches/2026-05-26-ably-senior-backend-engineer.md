@@ -1,7 +1,7 @@
 ---
 type: note
-status: targeting
-tags: [job-match, private, ably, commerce, style, unicorn, senior-ic, korea, series-c]
+status: applied
+tags: [job-match, private, ably, commerce, style, unicorn, senior-ic, korea, series-c, applied]
 company: 에이블리코퍼레이션
 position: 백엔드 엔지니어 (시니어, 7년+)
 url: https://career.rememberapp.co.kr/job/posting/299570
@@ -13,8 +13,9 @@ salary_range: 업계 최고 수준 (협의) + 스톡옵션 + 성과급
 match_score: 8.7
 recommendation: 지원 권장 (단 본인 팀장 트랙 선호 vs 시니어 IC OK 여부 결정 필요)
 deadline: 채용 시 마감 (상시)
+applied_at: 2026-05-27
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-05-27
 ---
 
 # 에이블리코퍼레이션 — 백엔드 엔지니어 (시니어) 매칭 분석

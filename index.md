@@ -71,6 +71,7 @@ vault 의 카테고리별 카탈로그. 1 페이지당 1 줄로 간결하게 유
 - [[Antigravity]] — Google 에이전트 코딩 IDE, 본인 미검증
 - [[IntelliJ]] — JetBrains IDE, 본인 일상 주력. LLM 시대에도 막강한 IDE 레이어
 - [[Bitbucket]] — Atlassian Git 호스팅 + CI/CD. 본인 회사 사용 중 (Pipelines 는 미사용, Claude Code 통합 검토 후보)
+- [[Codex]] — OpenAI 코딩 에이전트. 본인 멀티 에이전트 워크플로의 구현 담당
 
 ## Sources
 
@@ -84,6 +85,7 @@ vault 의 카테고리별 카탈로그. 1 페이지당 1 줄로 간결하게 유
 - [[yozm-analytics-for-vibe-coders]] — 프로덕트 밸리, 바이브코더용 무료 분석 도구 5 개 가이드 (article, 2026-05-20)
 - [[yozm-karpathy-anthropic-join]] — 트파원, Karpathy 의 Anthropic 합류 분석 (article, 2026-05-21)
 - [[yozm-google-io-2026-gemini-eats-google]] — 미어캣, 구글 I/O 2026 풀스택 AI 통합 전략 정리 (article, 2026-05-21)
+- [[yozm-codex-vs-claude-code]] — 덕파, Codex vs Claude Code 도구 비교 + Opus 4.7 토크나이저 변경 영향 (article, 2026-05-26)
 - [[2026-05-14-vault-setup-and-llm-wiki-adoption]] — 본 vault 초기 셋업 + LLM Wiki 채택 논의 (discussion, 2026-05-14)
 
 ## Notes

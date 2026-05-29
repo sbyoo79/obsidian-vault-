@@ -25,6 +25,8 @@ vault 의 카테고리별 카탈로그. 1 페이지당 1 줄로 간결하게 유
 - [[Aha Moment]] — 사용자가 제품 가치를 처음 체감하는 순간, PMF 활성화 신호 기준
 - [[AI-driven R&D]] — AI 가 AI 모델 개발 자체를 가속화하는 Anthropic 4대 연구 의제 중 하나
 - [[Agent Payments Protocol]] — Google 의 AI 에이전트 자율 결제 표준 (AP2, 2026 I/O)
+- [[Eval]] — LLM 출력의 분포 기반 검증 방법론 (LLM-as-judge, Eval Engineer 직무)
+- [[Hallucination]] — LLM 의 "조용한 실패", 그럴듯한 어조의 사실 오류 (환각)
 
 ## People
 
@@ -41,6 +43,7 @@ vault 의 카테고리별 카탈로그. 1 페이지당 1 줄로 간결하게 유
 - [[Jack Clark]] — Anthropic 공동창업자, 정책·외부 커뮤니케이션
 - [[트파원]] — 요즘IT 기고자, AI 산업 인재·전략 분석
 - [[미어캣]] — 요즘IT 기고자, 빅테크 컨퍼런스·제품 발표 정리
+- [[김영욱]] — 요즘IT 기고자, AI 프로덕트 매니지먼트·신뢰 설계 관점
 
 ## Organizations
 
@@ -53,6 +56,7 @@ vault 의 카테고리별 카탈로그. 1 페이지당 1 줄로 간결하게 유
 - [[Google]] — 빅테크, Gemini 풀스택 AI 통합 전략 (3 파전 한 축)
 - [[Atlassian]] — 호주 dev tools/협업 SaaS, Jira·Bitbucket·Confluence (본인 회사 기반 인프라)
 - [[Eureka Labs]] — Karpathy 가 2024 설립한 AI 교육 스타트업 (2026-05 보류)
+- [[Air Canada]] — 캐나다 항공사. 챗봇 환각 답변 회사 책임 판결 (2022, 812 USD 환불 + 챗봇 중단)
 
 ## Tools
 
@@ -86,6 +90,7 @@ vault 의 카테고리별 카탈로그. 1 페이지당 1 줄로 간결하게 유
 - [[yozm-karpathy-anthropic-join]] — 트파원, Karpathy 의 Anthropic 합류 분석 (article, 2026-05-21)
 - [[yozm-google-io-2026-gemini-eats-google]] — 미어캣, 구글 I/O 2026 풀스택 AI 통합 전략 정리 (article, 2026-05-21)
 - [[yozm-codex-vs-claude-code]] — 덕파, Codex vs Claude Code 도구 비교 + Opus 4.7 토크나이저 변경 영향 (article, 2026-05-26)
+- [[yozm-ai-why-wrong]] — 김영욱, AI 프로덕트 결정론→확률론 + 에어캐나다 챗봇 판결 (article, 2026-05-28)
 - [[2026-05-14-vault-setup-and-llm-wiki-adoption]] — 본 vault 초기 셋업 + LLM Wiki 채택 논의 (discussion, 2026-05-14)
 
 ## Notes
@@ -100,6 +105,7 @@ vault 의 카테고리별 카탈로그. 1 페이지당 1 줄로 간결하게 유
 - [[llm-tool-comparison]] — 본인 LLM 도구 실측 비교 living doc (Claude Code / Codex / ChatGPT / Gemini)
 - [[ai-overwhelm-framing]] — AI 변화 속도 압박 올라올 때 읽는 자기 reorientation 도구 (따라잡기 → 흡수 framing)
 - [[infra-tradeoff-framing]] — 인프라·운영 의사결정 사상 living doc (현상 유지 = 의도적 결정, trade-off 5 변수 framework)
+- [[2026-05-29-ai-product-distribution-thinking]] — yozm-ai-why-wrong 본인 관점 보강 (분포 KPI, 백엔드 시야, 리드플레닛 적용)
 
 ## Meta
 

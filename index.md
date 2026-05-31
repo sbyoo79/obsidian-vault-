@@ -27,6 +27,7 @@ vault 의 카테고리별 카탈로그. 1 페이지당 1 줄로 간결하게 유
 - [[Agent Payments Protocol]] — Google 의 AI 에이전트 자율 결제 표준 (AP2, 2026 I/O)
 - [[Eval]] — LLM 출력의 분포 기반 검증 방법론 (LLM-as-judge, Eval Engineer 직무)
 - [[Hallucination]] — LLM 의 "조용한 실패", 그럴듯한 어조의 사실 오류 (환각)
+- [[Programming as Theory Building]] — Naur 1985, 프로그래밍 본질은 코드가 아닌 이론 구축. AI 시대 재부상
 
 ## People
 
@@ -44,6 +45,7 @@ vault 의 카테고리별 카탈로그. 1 페이지당 1 줄로 간결하게 유
 - [[트파원]] — 요즘IT 기고자, AI 산업 인재·전략 분석
 - [[미어캣]] — 요즘IT 기고자, 빅테크 컨퍼런스·제품 발표 정리
 - [[김영욱]] — 요즘IT 기고자, AI 프로덕트 매니지먼트·신뢰 설계 관점
+- [[백명석]] — Brunch @cleancode, 클린코드·시니어 엔지니어링·AI 시대 책임 연재
 
 ## Organizations
 
@@ -57,6 +59,7 @@ vault 의 카테고리별 카탈로그. 1 페이지당 1 줄로 간결하게 유
 - [[Atlassian]] — 호주 dev tools/협업 SaaS, Jira·Bitbucket·Confluence (본인 회사 기반 인프라)
 - [[Eureka Labs]] — Karpathy 가 2024 설립한 AI 교육 스타트업 (2026-05 보류)
 - [[Air Canada]] — 캐나다 항공사. 챗봇 환각 답변 회사 책임 판결 (2022, 812 USD 환불 + 챗봇 중단)
+- [[Brunch]] — 카카오 운영 한국어 작가 심사 기반 글쓰기 플랫폼
 
 ## Tools
 
@@ -91,6 +94,7 @@ vault 의 카테고리별 카탈로그. 1 페이지당 1 줄로 간결하게 유
 - [[yozm-google-io-2026-gemini-eats-google]] — 미어캣, 구글 I/O 2026 풀스택 AI 통합 전략 정리 (article, 2026-05-21)
 - [[yozm-codex-vs-claude-code]] — 덕파, Codex vs Claude Code 도구 비교 + Opus 4.7 토크나이저 변경 영향 (article, 2026-05-26)
 - [[yozm-ai-why-wrong]] — 김영욱, AI 프로덕트 결정론→확률론 + 에어캐나다 챗봇 판결 (article, 2026-05-28)
+- [[brunch-cleancode-ownership-ai-era]] — 백명석, 딸깍의 시대 주인의식·Responsibility vs Accountability·Naur 이론 재조명 (article, 2026-05-31)
 - [[2026-05-14-vault-setup-and-llm-wiki-adoption]] — 본 vault 초기 셋업 + LLM Wiki 채택 논의 (discussion, 2026-05-14)
 
 ## Notes
@@ -106,6 +110,7 @@ vault 의 카테고리별 카탈로그. 1 페이지당 1 줄로 간결하게 유
 - [[ai-overwhelm-framing]] — AI 변화 속도 압박 올라올 때 읽는 자기 reorientation 도구 (따라잡기 → 흡수 framing)
 - [[infra-tradeoff-framing]] — 인프라·운영 의사결정 사상 living doc (현상 유지 = 의도적 결정, trade-off 5 변수 framework)
 - [[2026-05-29-ai-product-distribution-thinking]] — yozm-ai-why-wrong 본인 관점 보강 (분포 KPI, 백엔드 시야, 리드플레닛 적용)
+- [[2026-06-01-theory-building-vs-vibe-coding]] — brunch-cleancode 본인 관점 보강 (이론 보유 격차, AGENTS.md 보강, 이력서 차별점 시사점)
 
 ## Meta
 

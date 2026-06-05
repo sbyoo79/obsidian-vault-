@@ -1,6 +1,6 @@
 ---
 type: note
-status: draft
+status: applied
 tags: [job-match, private, coupang-pay, fintech, payment, team-lead, korea, large-enterprise, applied]
 company: 쿠팡(주) / 쿠팡페이
 position: 백엔드 개발 팀장 (Coupang Pay Backend Development Team Lead)
@@ -13,7 +13,7 @@ salary_range: 협의
 match_score: 8.5
 recommendation: 지원 진행 — 본인 레벨 / Java·JPA·MSA 정확 fit, 약점은 결제 직접 X · 모던 핀테크 스택. 매칭 도구 변수 검증 사이클 의미 동반
 deadline: 채용 시 마감
-applied_at: (예정 — 2026-06-05 작업 중)
+applied_at: 2026-06-05
 created: 2026-06-05
 updated: 2026-06-05
 ---
@@ -149,9 +149,9 @@ updated: 2026-06-05
 ## Action Items
 
 - [x] **매칭 분석 노트 작성 (2026-06-05)**
-- [ ] **한글 customized resume 작성** — [[이력서_유승보_coupangpay-lead_2026-06]]
-- [ ] **지원서 제출**
-- [ ] **회신 추적** — 대형사 컷 변수 검증
+- [x] **한글 customized resume 작성 (2026-06-05)** — [[이력서_유승보_coupangpay-lead_2026-06]]
+- [x] **지원서 제출 (2026-06-05)**
+- [ ] **회신 추적** — 대형사 컷 변수 검증 (이전 IC 자리 무응답 종료 vs 본 팀장 자리 회신 여부 비교)
 
 ## 후보 비교 정리 (2026-06-05 현재)
 

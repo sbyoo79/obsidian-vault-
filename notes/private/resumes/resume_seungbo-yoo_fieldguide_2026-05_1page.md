@@ -25,7 +25,7 @@ Backend engineer with 21 years of experience in B2B SaaS, leading the modernizat
 ## Selected Experience
 
 ### LeadPlanet — Team Lead, Backend (Dec 2024 – Present)
-Multi-tenant ERP SaaS for franchise operators. Leading the office-development backend team.
+Multi-tenant ERP SaaS for franchise operators. Leading the AI and Data Analytics backend team (renamed from Office Development team in Jun 2026; scope and headcount unchanged).
 
 - Consolidated a per-tenant deployment topology into a single multi-tenant application: **~200 instances at 256–512 GB / 90%+ memory → one instance at 128 GB / 10–15%**, cutting infrastructure cost significantly.
 - Upgraded **Java 1.8 + Spring Boot 1.4.2 → Java 17 + Spring Boot 2.7.18** across a ~250K-LOC / ~2,000-file codebase; migrating toward Java 21 + Boot 3.5.

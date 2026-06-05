@@ -38,7 +38,7 @@ Backend engineer with **21 years** of experience in B2B SaaS and commerce platfo
 ## Experience
 
 ### LeadPlanet — Team Lead, Backend (Dec 2024 – Present)
-Multi-tenant ERP SaaS for franchise operators. Leading the office-development backend team.
+Multi-tenant ERP SaaS for franchise operators. Leading the AI and Data Analytics backend team (renamed from Office Development team in Jun 2026; scope and headcount unchanged).
 
 - Lead **multi-tenant backend system design and operations** across many tenant organizations.
 - Build aggregation, reconciliation, and audit-adjacent processes for revenue, settlement, and logistics data.

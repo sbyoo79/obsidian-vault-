@@ -3,7 +3,7 @@ type: entity
 status: active
 category: tool
 tags: [tool, ai, llm, anthropic, assistant]
-aliases: [Claude AI, Claude Code]
+aliases: [Claude AI]
 url: https://claude.com
 vendor: Anthropic
 license: commercial
@@ -24,7 +24,7 @@ updated: 2026-05-14
 
 ## 본 vault 에서의 의미
 
-이 vault 의 **active agent**. 모든 ingest / query / lint 작업을 수행한다. `format: discussion` source 의 `author` 가 곧 Claude (특정 모델 버전). 사용자와의 기술 논의가 vault 에 정리될 때마다 이 페이지가 source 들의 hub 가 된다.
+본 vault 의 **모델 패밀리**. 실제 운영 도구는 [[Claude Code]] (CLI) 가 담당하고, Claude entity 는 그 도구의 백엔드 모델 라인업·일반 능력을 추적한다. `format: discussion` source 의 `author=[[Claude]]` 는 모델 버전 식별 (예: `model: claude-opus-4-7`) 으로, 실행 환경은 [[Claude Code]] 가 짝을 이룬다.
 
 ## Key facts
 
@@ -63,8 +63,9 @@ updated: 2026-05-14
 
 ## 관련 entities
 
+- [[Claude Code]] — 모델을 운영하는 도구 (CLI / IDE 통합). 본 vault 의 실제 active agent
 - [[Anthropic]] — 제조사
-- [[Codex]] — 본인 도구 풀의 짝 (Codex 구현 / Claude 리뷰), 시장 비교 대상
+- [[Codex]] — 본인 도구 풀의 짝 ([[Codex]] 구현 / [[Claude Code]] 리뷰), 시장 비교 대상
 - [[ChatGPT]] — 같은 결의 LLM 비교 대상
 - [[LLM Wiki]] — Claude 가 이 vault 에서 실행하는 패턴
 - [[Andrej Karpathy]] — 패턴 제안자 + Anthropic 합류 (사이클 시그널)

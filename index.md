@@ -64,7 +64,8 @@ vault 의 카테고리별 카탈로그. 1 페이지당 1 줄로 간결하게 유
 
 ## Tools
 
-- [[Claude]] — Anthropic LLM 어시스턴트, 이 vault 의 active agent
+- [[Claude]] — Anthropic LLM 모델 패밀리 (Opus / Sonnet / Haiku 4.X)
+- [[Claude Code]] — Anthropic 의 에이전트 코딩 CLI / IDE 도구. 본 vault 의 실제 active agent
 - [[ChatGPT]] — OpenAI LLM 챗, [[Claude]] 의 직접 비교 대상
 - [[Obsidian]] — local markdown PKM 앱, 이 vault 의 browser
 - [[Google Search Console]] — 구글 무료 검색 성과 모니터링 도구

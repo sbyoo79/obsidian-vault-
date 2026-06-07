@@ -76,6 +76,7 @@ format 별 추가 필드:
 - 다른 페이지 참조는 `[[페이지 이름]]` 형식.
 - 미존재 페이지로 링크해도 OK — 향후 채울 자리 표시로 둔다.
 - 핵심 명사가 본문에 등장하면 가능한 한 `[[...]]` 으로 감싼다.
+- 일부 `[[...]]` 는 vault 페이지가 아닌 **외부 memory 식별자의 cross-ref** 로 사용된다. 패턴: `feedback_*` / `project_*` / `user-profile` 같은 snake_case (또는 단일 hyphen) 식별자 — vault 의 자연어/kebab-case 페이지 컨벤션과 구분된다. Lint 는 이를 깨진 링크가 아닌 의도된 외부 참조로 분류한다.
 
 ### Entity 페이지 표준 섹션
 
@@ -152,7 +153,7 @@ format 별 추가 필드:
 ### Lint — 건강도 점검 (요청 시)
 
 - orphan 페이지(아무도 링크 안 한 페이지) 식별
-- 깨진 `[[...]]` (대상 미존재) 식별 → 신규 페이지 자리 표시인지 미스타이프인지 분류
+- 깨진 `[[...]]` (대상 미존재) 식별 → 신규 페이지 자리 표시인지 / 미스타이프인지 / **memory cross-ref 인지** (`feedback_*` / `project_*` / `user-profile` 패턴 — Wiki link 절 참고) 분류
 - 같은 entity 가 다른 이름으로 여러 페이지에 존재(중복) 식별
 - **루트에 위치한 비-규정 `.md` 식별** — vault 루트는 `CLAUDE.md` / `index.md` / `log.md` 만 허용. 그 외 `.md` 가 루트에 있으면 위치 이동 또는 삭제 후보 (예: Obsidian 의 wikilink 자동 생성으로 빈 페이지가 루트에 만들어지는 사례)
 - 결과를 `meta/lint-{YYYY-MM-DD}.md` 로 저장 + `log.md` 한 줄

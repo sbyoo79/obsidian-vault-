@@ -114,4 +114,4 @@ vault 의 카테고리별 카탈로그. 1 페이지당 1 줄로 간결하게 유
 
 ## Meta
 
-_(없음)_
+- [[lint-2026-06-07]] — vault 첫 lint 보고서. 루트/orphan/중복 0 건 clean, 깨진 wikilink 53 건 분류 (메모리 cross-ref 21 / 리드플레닛 schema 충돌 3 / entity 신설 후보 다수)

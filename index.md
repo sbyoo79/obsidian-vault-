@@ -46,6 +46,7 @@ vault 의 카테고리별 카탈로그. 1 페이지당 1 줄로 간결하게 유
 - [[미어캣]] — 요즘IT 기고자, 빅테크 컨퍼런스·제품 발표 정리
 - [[김영욱]] — 요즘IT 기고자, AI 프로덕트 매니지먼트·신뢰 설계 관점
 - [[백명석]] — Brunch @cleancode, 클린코드·시니어 엔지니어링·AI 시대 책임 연재
+- [[Peter Naur]] — 덴마크 컴퓨터과학자, ALGOL 60 / BNF / Programming as Theory Building (1985), 2005 튜링상
 
 ## Organizations
 

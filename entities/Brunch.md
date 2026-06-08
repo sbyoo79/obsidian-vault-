@@ -6,7 +6,7 @@ tags: [korean-publishing, blog-platform, kakao, content-platform]
 aliases: [브런치, brunch.co.kr]
 industry: publishing-platform
 created: 2026-06-01
-updated: 2026-06-01
+updated: 2026-06-08
 ---
 
 # Brunch
@@ -26,6 +26,7 @@ updated: 2026-06-01
 ## 관련 sources
 
 - [[brunch-cleancode-ownership-ai-era]] — 백명석 @cleancode (2026-05-31)
+- [[brunch-cleancode-ai-no-silver-bullet]] — 백명석 @cleancode (2026-06-08)
 
 ## 관련 entities
 

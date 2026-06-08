@@ -28,6 +28,7 @@ vault 의 카테고리별 카탈로그. 1 페이지당 1 줄로 간결하게 유
 - [[Eval]] — LLM 출력의 분포 기반 검증 방법론 (LLM-as-judge, Eval Engineer 직무)
 - [[Hallucination]] — LLM 의 "조용한 실패", 그럴듯한 어조의 사실 오류 (환각)
 - [[Programming as Theory Building]] — Naur 1985, 프로그래밍 본질은 코드가 아닌 이론 구축. AI 시대 재부상
+- [[인지적 부채]] — 백명석 2026, AI 코드 이해 없이 받아들일 때의 부채. 기술 부채와 구분
 
 ## People
 
@@ -97,6 +98,7 @@ vault 의 카테고리별 카탈로그. 1 페이지당 1 줄로 간결하게 유
 - [[yozm-codex-vs-claude-code]] — 덕파, Codex vs Claude Code 도구 비교 + Opus 4.7 토크나이저 변경 영향 (article, 2026-05-26)
 - [[yozm-ai-why-wrong]] — 김영욱, AI 프로덕트 결정론→확률론 + 에어캐나다 챗봇 판결 (article, 2026-05-28)
 - [[brunch-cleancode-ownership-ai-era]] — 백명석, 딸깍의 시대 주인의식·Responsibility vs Accountability·Naur 이론 재조명 (article, 2026-05-31)
+- [[brunch-cleancode-ai-no-silver-bullet]] — 백명석, AI와 함께 개발하기 - 은탄환은 없다. 명세·검증 두 축 + 인지적 부채 framing (article, 2026-06-08)
 - [[2026-05-14-vault-setup-and-llm-wiki-adoption]] — 본 vault 초기 셋업 + LLM Wiki 채택 논의 (discussion, 2026-05-14)
 
 ## Notes

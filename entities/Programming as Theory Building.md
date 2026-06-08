@@ -7,7 +7,7 @@ aliases: [Theory Building, 프로그래밍은 이론 구축, Naur 1985]
 proposed_by: "[[Peter Naur]]"
 year_proposed: 1985
 created: 2026-06-01
-updated: 2026-06-01
+updated: 2026-06-08
 ---
 
 # Programming as Theory Building
@@ -46,6 +46,7 @@ updated: 2026-06-01
 ## 관련 sources
 
 - [[brunch-cleancode-ownership-ai-era]] — 백명석, AI 시대 이론 보유의 의미 재조명
+- [[brunch-cleancode-ai-no-silver-bullet]] — 백명석 후속, 검증 = 멘탈 모델 구축 = 이론 재구축으로 재명시. **인지적 부채** 라는 새 framing 도입
 - [[yozm-vibe-coding-real-start]] — Vibe Coding 한계 비판도 같은 결
 
 ## 관련 entities

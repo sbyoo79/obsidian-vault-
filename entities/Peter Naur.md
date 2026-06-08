@@ -7,7 +7,7 @@ aliases: [페터 나우어, Naur, 나우어]
 roles: [computer scientist, mathematician, astronomer]
 affiliation: 코펜하겐대학교 (emeritus, 2016 사망)
 created: 2026-06-07
-updated: 2026-06-07
+updated: 2026-06-08
 ---
 
 # Peter Naur
@@ -56,6 +56,7 @@ updated: 2026-06-07
 ## 관련 sources
 
 - [[brunch-cleancode-ownership-ai-era]] — 백명석, Naur 의 이론 정의 인용 ("이론은 왜 그렇게 했는지 설명하고 새로운 요구에 맞춰 고칠 수 있는 지식")
+- [[brunch-cleancode-ai-no-silver-bullet]] — 백명석, 검증 = 멘탈 모델 구축 맥락에서 Naur 재인용 ("프로그래밍의 주된 목적은 그 문제가 프로그램 실행을 통해 어떻게 해결되는지에 대한 이론을 구축하는 것")
 
 ## 관련 entities
 

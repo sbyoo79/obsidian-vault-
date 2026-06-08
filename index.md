@@ -115,6 +115,7 @@ vault 의 카테고리별 카탈로그. 1 페이지당 1 줄로 간결하게 유
 - [[infra-tradeoff-framing]] — 인프라·운영 의사결정 사상 living doc (현상 유지 = 의도적 결정, trade-off 5 변수 framework)
 - [[2026-05-29-ai-product-distribution-thinking]] — yozm-ai-why-wrong 본인 관점 보강 (분포 KPI, 백엔드 시야, 리드플레닛 적용)
 - [[2026-06-01-theory-building-vs-vibe-coding]] — brunch-cleancode 본인 관점 보강 (이론 보유 격차, AGENTS.md 보강, 이력서 차별점 시사점)
+- [[2026-06-08-cognitive-debt-and-verification-fear]] — 98 화 본인 관점 보강 (검증 두려움 = 게이트, docs 단계 재정의, layered verification)
 
 ## Meta
 
